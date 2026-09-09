@@ -1,0 +1,54 @@
+name: Deutsch Tutor
+
+on:
+  schedule:
+    # Orari in UTC, calcolati per l'ora legale tedesca (CEST, UTC+2).
+    # Cambieranno di un'ora reale quando la Germania torna all'ora solare (CET, fine ottobre).
+    - cron: "45 7 * * *"   # 09:45 CEST -> lezione del mattino
+    - cron: "30 10 * * *"  # 12:30 CEST -> lezione di mezzogiorno
+    - cron: "15 16 * * *"  # 18:15 CEST -> lezione della sera
+  workflow_dispatch:
+    inputs:
+      lesson:
+        description: "Lezione da inviare"
+        required: true
+        default: "morning"
+        type: choice
+        options:
+          - morning
+          - midday
+          - evening
+
+jobs:
+  send-lesson:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Determine which lesson to send
+        id: lesson
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "type=${{ github.event.inputs.lesson }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "45 7 * * *" ]; then
+            echo "type=morning" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "30 10 * * *" ]; then
+            echo "type=midday" >> "$GITHUB_OUTPUT"
+          else
+            echo "type=evening" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Send lesson
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python send_lesson.py ${{ steps.lesson.outputs.type }}
