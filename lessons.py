@@ -4,1695 +4,1453 @@ from datetime import date
 DAYS = [
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Nina:</b> Ehrlich gesagt bin ich mir nicht sicher, ob sich der ganze <b>Aufwand</b> für dieses Projekt überhaupt <b>auszahlt</b>.
+🇮🇹 A dire il vero non sono sicura che tutto questo sforzo per il progetto ripaghi davvero.
 
-<b>Ich bin mir nach wie vor nicht sicher, ob sich der ganze Aufwand tatsächlich auszahlt.</b>
+🇩🇪 <b>Paul:</b> Das kann ich verstehen, allerdings hast du schon so viel Zeit <b>investiert</b>, dass ein Abbruch jetzt schade wäre.
+🇮🇹 Lo capisco, tuttavia hai già investito così tanto tempo che interrompere ora sarebbe un peccato.
 
-🇮🇹 Non sono ancora del tutto sicura che tutto questo sforzo ripaghi davvero.
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>sich auszahlen</b>
-  = ripagare, valerne la pena (nel senso di risultato)
-
-• <b>nach wie vor</b>
-  = tuttora, ancora adesso
-
-• <b>der Aufwand betreiben</b>
-  = investire sforzo/impegno
-
-💡 <b>C1-Ausdruck:</b>
-<b>Es bleibt fraglich, ob...</b>
-= Resta da chiedersi se... (registro sostenuto per esprimere dubbio)
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-In zahlreichen Großstädten ist ein zunehmendes Bedürfnis zu beobachten, den Alltag bewusster zu gestalten.
-Anstatt jede freie Minute durchzuplanen, lassen manche Menschen bewusst Freiräume für spontane Entscheidungen –
-ein Vorhaben, das sich in der Praxis als deutlich schwieriger erweist, als es zunächst klingt.
-
-🇮🇹
-In numerose grandi città si osserva un bisogno crescente di organizzare la propria quotidianità in modo più consapevole.
-Invece di programmare ogni minuto libero, alcune persone lasciano volutamente spazi per decisioni spontanee –
-un proposito che nella pratica si rivela decisamente più difficile di quanto sembri all'inizio.
+🇩🇪 <b>Nina:</b> Da hast du wahrscheinlich recht – vielleicht sollte ich einfach <b>durchhalten</b>.
+🇮🇹 Probabilmente hai ragione – forse dovrei semplicemente tener duro.
 
 📚 <b>Neue Wörter</b>
+• <b>sich auszahlen</b> = ripagare, valerne la pena
+• <b>investieren</b> = investire
+• <b>durchhalten</b> = perseverare, tener duro
+• <b>der Aufwand</b> = lo sforzo
+• <b>ehrlich gesagt</b> = a dire il vero
 
-• <b>sich als etwas erweisen</b>
-  = rivelarsi (qualcosa)
+💡 "sich auszahlen" descrive un risultato che ripaga lo sforzo fatto; è diverso da "sich lohnen" (valerne la pena in generale).
+""".strip(),
+        "midday": """
+🇩🇪 Zunehmend versuchen Menschen in Großstädten, ihren Alltag <b>bewusster</b> zu gestalten, statt jede Minute zu verplanen.
+🇮🇹 Sempre più persone nelle grandi città cercano di vivere la propria quotidianità in modo più consapevole, invece di pianificare ogni minuto.
 
-• <b>der Freiraum, -¨e</b>
-  = lo spazio di libertà/margine
+🇩🇪 Dieses Vorhaben <b>erweist sich</b> in der Praxis jedoch oft als schwieriger, als es zunächst klingt.
+🇮🇹 Questo proposito si rivela però spesso, nella pratica, più difficile di quanto sembri all'inizio.
 
-• <b>durchplanen</b>
-  = pianificare interamente
+🇩🇪 Wer <b>konsequent</b> daran festhält, wird langfristig meist mit mehr <b>Gelassenheit</b> belohnt.
+🇮🇹 Chi tuttavia vi si attiene con costanza viene di solito ricompensato, a lungo termine, con più serenità.
 
-💡 <b>Struktur</b>
-Partizipialattribut: <b>ein Vorhaben, das sich als schwierig erweist</b>
-= registro sostenuto tipico C1, alternativa al Relativsatz semplice.
+📚 <b>Neue Wörter</b>
+• <b>sich erweisen als</b> = rivelarsi
+• <b>konsequent</b> = con costanza, coerentemente
+• <b>die Gelassenheit</b> = la serenità
+• <b>festhalten an</b> = attenersi a
+• <b>verplanen</b> = pianificare interamente
+
+💡 "sich erweisen als" + aggettivo è un modo elegante per dire che qualcosa "si rivela" in un certo modo.
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
+🇩🇪 Es lohnt sich, <b>konsequent</b> an guten Vorsätzen <b>festzuhalten</b>, auch wenn es anfangs schwerfällt.
+🇮🇹 Vale la pena attenersi con costanza ai buoni propositi, anche se all'inizio risulta difficile.
 
-<b>Es lohnt sich zweifellos, im Alltag bewusst Freiräume freizuhalten, auch wenn dies nicht immer leichtfällt.</b>
-
-🇮🇹 Vale indubbiamente la pena tenere consapevolmente spazi liberi nella quotidianità, anche se non è sempre facile.
+🇩🇪 Wer durchhält, wird meist mit mehr <b>Gelassenheit</b> belohnt.
+🇮🇹 Chi tiene duro viene di solito ricompensato con più serenità.
 
 🔁 <b>Wiederholung</b>
+• <b>sich auszahlen</b> = ripagare
+• <b>durchhalten</b> = tener duro
+• <b>sich erweisen als</b> = rivelarsi
+• <b>die Gelassenheit</b> = la serenità
+• <b>festhalten an</b> = attenersi a
 
-• <b>sich auszahlen</b>
-• <b>der Freiraum</b>
-• <b>nach wie vor</b>
-
-<i>Prova oggi a usare "es lohnt sich, ... zu" con un infinito, come in una frase C1.</i>
+<i>Prova a fare una frase con "sich erweisen als" su qualcosa che si è rivelato diverso dal previsto.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Sophie:</b> Ich müsste eigentlich <b>zeitnah</b> einen Termin bei meiner Hausärztin vereinbaren, aber die Praxis ist ständig <b>überlastet</b>.
+🇮🇹 Dovrei in realtà fissare a breve un appuntamento con la mia dottoressa di base, ma lo studio è sempre sovraccarico.
 
-<b>Ich würde es sehr begrüßen, wenn ich zeitnah einen Termin bei meiner Hausärztin bekommen könnte.</b>
+🇩🇪 <b>Max:</b> Hast du schon versucht, online einen Termin zu buchen? Das geht mittlerweile oft deutlich schneller als anzurufen.
+🇮🇹 Hai già provato a prenotare un appuntamento online? Ormai spesso è molto più veloce che chiamare.
 
-🇮🇹 Sarei molto contenta se potessi avere un appuntamento a breve con la mia dottoressa di base.
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>etwas begrüßen</b>
-  = accogliere favorevolmente, apprezzare
-
-• <b>zeitnah</b>
-  = a breve, tempestivamente
-
-• <b>die Beschwerden schildern</b>
-  = descrivere i disturbi
-
-💡 <b>C1-Ausdruck:</b>
-<b>Es wäre mir sehr gelegen, wenn...</b>
-= Mi farebbe molto comodo se... (registro molto formale)
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Beim Arztbesuch empfiehlt es sich, die eigenen Beschwerden so präzise wie möglich zu schildern,
-zumal eine ungenaue Beschreibung die Diagnose erheblich erschweren kann.
-Man sollte insbesondere angeben, seit wann die Symptome bestehen und ob sich diese im Laufe der Zeit verschlimmert haben.
-
-🇮🇹
-Durante la visita medica è consigliabile descrivere i propri disturbi nel modo più preciso possibile,
-tanto più che una descrizione imprecisa può rendere notevolmente più difficile la diagnosi.
-Bisognerebbe in particolare indicare da quando sussistono i sintomi e se questi siano peggiorati nel corso del tempo.
+🇩🇪 <b>Sophie:</b> Stimmt, das probiere ich gleich aus – vielleicht erspare ich mir dadurch die <b>Warteschleife</b>.
+🇮🇹 Vero, lo provo subito – magari mi risparmio così l'attesa telefonica.
 
 📚 <b>Neue Wörter</b>
+• <b>zeitnah</b> = a breve, tempestivamente
+• <b>überlastet</b> = sovraccarico
+• <b>die Warteschleife</b> = l'attesa telefonica
+• <b>vereinbaren</b> = fissare/concordare
+• <b>sich etwas ersparen</b> = risparmiarsi qualcosa
 
-• <b>erschweren</b>
-  = rendere più difficile
+💡 "zeitnah" è un avverbio molto usato in contesti formali al posto di "bald".
+""".strip(),
+        "midday": """
+🇩🇪 Beim Arztbesuch empfiehlt es sich, die eigenen Beschwerden möglichst präzise zu <b>schildern</b>.
+🇮🇹 Durante la visita medica è consigliabile descrivere i propri disturbi nel modo più preciso possibile.
 
-• <b>sich verschlimmern</b>
-  = peggiorare
+🇩🇪 Eine ungenaue Beschreibung kann die Diagnose nämlich erheblich <b>erschweren</b>.
+🇮🇹 Una descrizione imprecisa può infatti rendere notevolmente più difficile la diagnosi.
 
-• <b>zumal</b>
-  = tanto più che, dato che (connettore sostenuto)
+🇩🇪 Deshalb sollte man auch angeben, seit wann die Symptome bestehen und ob sie sich <b>verschlimmert</b> haben.
+🇮🇹 Bisognerebbe perciò indicare anche da quando sussistono i sintomi e se sono peggiorati.
 
-💡 <b>Struktur</b>
-<b>zumal</b> introduce un Nebensatz che rafforza una motivazione già data: registro C1.
+📚 <b>Neue Wörter</b>
+• <b>schildern</b> = descrivere
+• <b>erschweren</b> = rendere più difficile
+• <b>sich verschlimmern</b> = peggiorare
+• <b>die Beschwerden</b> = i disturbi
+• <b>erheblich</b> = notevolmente
+
+💡 "erschweren" è il contrario di "erleichtern" (facilitare) — entrambi molto usati in testi formali.
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
+🇩🇪 Es empfiehlt sich, die eigenen Beschwerden möglichst präzise zu <b>schildern</b>.
+🇮🇹 È consigliabile descrivere i propri disturbi nel modo più preciso possibile.
 
-<b>Ich wäre Ihnen sehr dankbar, wenn Sie mir kurzfristig einen Termin einräumen könnten.</b>
-
-🇮🇹 Le sarei molto grata se potesse concedermi un appuntamento a breve termine.
+🇩🇪 Eine ungenaue Beschreibung kann die Diagnose erheblich <b>erschweren</b>.
+🇮🇹 Una descrizione imprecisa può rendere notevolmente più difficile la diagnosi.
 
 🔁 <b>Wiederholung</b>
+• <b>zeitnah</b> = a breve
+• <b>überlastet</b> = sovraccarico
+• <b>schildern</b> = descrivere
+• <b>erschweren</b> = rendere più difficile
+• <b>sich verschlimmern</b> = peggiorare
 
-• <b>zeitnah</b>
-• <b>zumal</b>
-• <b>einräumen</b> (concedere)
-
-<i>Nota: "einräumen" al posto di "geben" alza subito il registro di una richiesta formale.</i>
+<i>Prova a descrivere un piccolo disturbo usando "schildern" e "seit".</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Julia:</b> Ich müsste dringend mit unserem Vermieter <b>Rücksprache halten</b>, was die defekte Heizung betrifft.
+🇮🇹 Dovrei urgentemente confrontarmi col nostro padrone di casa riguardo al riscaldamento guasto.
 
-<b>Ich müsste dringend mit dem Vermieter Rücksprache halten, was die defekte Heizung betrifft.</b>
+🇩🇪 <b>Tobias:</b> Hast du ihm schon geschrieben? Bei dringenden <b>Mängeln</b> sollte man eigentlich sofort reagieren.
+🇮🇹 Gli hai già scritto? In caso di difetti urgenti bisognerebbe in realtà reagire subito.
 
-🇮🇹 Dovrei urgentemente confrontarmi con il padrone di casa riguardo al riscaldamento guasto.
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>Rücksprache halten</b>
-  = confrontarsi, consultarsi
-
-• <b>defekt</b>
-  = guasto, difettoso
-
-• <b>was ... betrifft</b>
-  = per quanto riguarda...
-
-💡 <b>C1-Ausdruck:</b>
-<b>Ich wollte in Erfahrung bringen, ob...</b>
-= Volevo appurare/scoprire se... (più elegante di "wissen wollen")
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Sollte in der Wohnung ein Mangel auftreten, ist der Vermieter unverzüglich in Kenntnis zu setzen,
-wobei sich eine schriftliche Mitteilung als sinnvoll erweist, um den Sachverhalt eindeutig zu dokumentieren.
-Bei dringenden Angelegenheiten, etwa einem Wasserschaden, sollte man hingegen umgehend zum Telefon greifen.
-
-🇮🇹
-Qualora nell'appartamento si presentasse un difetto, il padrone di casa va informato senza indugio,
-laddove una comunicazione scritta si rivela utile per documentare in modo inequivocabile la questione.
-In caso di questioni urgenti, come un danno da acqua, converrebbe invece ricorrere immediatamente al telefono.
+🇩🇪 <b>Julia:</b> Noch nicht, aber ich werde ihn gleich anrufen, bevor es hier drinnen noch kälter wird.
+🇮🇹 Non ancora, ma lo chiamo subito, prima che qui dentro faccia ancora più freddo.
 
 📚 <b>Neue Wörter</b>
+• <b>Rücksprache halten</b> = confrontarsi, consultarsi
+• <b>der Mangel</b> = il difetto/vizio
+• <b>defekt</b> = guasto
+• <b>dringend</b> = urgente
+• <b>reagieren</b> = reagire
 
-• <b>der Mangel, -¨</b>
-  = il difetto/vizio
+💡 "Rücksprache halten mit + Dativ" è un'espressione molto usata in contesti lavorativi e amministrativi.
+""".strip(),
+        "midday": """
+🇩🇪 Tritt in der Wohnung ein Mangel auf, ist der Vermieter grundsätzlich <b>unverzüglich</b> zu informieren.
+🇮🇹 Se nell'appartamento si presenta un difetto, il padrone di casa va in linea di principio informato senza indugio.
 
-• <b>in Kenntnis setzen</b>
-  = informare, mettere al corrente
+🇩🇪 Eine schriftliche Mitteilung erweist sich dabei meist als sinnvoll, um den <b>Sachverhalt</b> eindeutig zu dokumentieren.
+🇮🇹 Una comunicazione scritta si rivela in questo caso di solito utile per documentare in modo inequivocabile la questione.
 
-• <b>unverzüglich</b>
-  = senza indugio, immediatamente
+🇩🇪 Bei <b>akuten</b> Notfällen, etwa einem Wasserschaden, sollte man hingegen sofort zum Telefon greifen.
+🇮🇹 In caso di emergenze acute, come un danno da acqua, converrebbe invece ricorrere subito al telefono.
 
-💡 <b>Struktur</b>
-<b>Passiv mit Modalverb + zu:</b> ist ... in Kenntnis zu setzen
-= forma impersonale-burocratica molto tipica di testi C1 (contratti, avvisi).
+📚 <b>Neue Wörter</b>
+• <b>unverzüglich</b> = senza indugio
+• <b>der Sachverhalt</b> = la questione/i fatti
+• <b>akut</b> = acuto/urgente
+• <b>die Mitteilung</b> = la comunicazione
+• <b>zum Telefon greifen</b> = ricorrere al telefono
+
+💡 "ist ... zu informieren" (Passiv mit zu) è una forma impersonale-burocratica molto tipica di testi ufficiali.
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
+🇩🇪 Ein Mangel ist dem Vermieter grundsätzlich <b>unverzüglich</b> mitzuteilen.
+🇮🇹 Un difetto va comunicato al padrone di casa, in linea di principio, senza indugio.
 
-<b>Die Heizung funktioniert bereits seit geraumer Zeit nicht mehr einwandfrei.</b>
-
-🇮🇹 Il riscaldamento non funziona più perfettamente già da un bel po' di tempo.
+🇩🇪 Bei <b>akuten</b> Notfällen sollte man sofort zum Telefon greifen.
+🇮🇹 In caso di emergenze urgenti converrebbe ricorrere subito al telefono.
 
 🔁 <b>Wiederholung</b>
+• <b>der Mangel</b> = il difetto
+• <b>unverzüglich</b> = senza indugio
+• <b>Rücksprache halten</b> = confrontarsi
+• <b>akut</b> = urgente
+• <b>der Sachverhalt</b> = la questione
 
-• <b>der Mangel</b>
-• <b>unverzüglich</b>
-• <b>seit geraumer Zeit</b>
-
-<i>"seit geraumer Zeit" è un'alternativa elegante a "seit langem" molto usata in tedesco scritto.</i>
+<i>Prova a fare una frase con "unverzüglich" su qualcosa da fare senza indugio.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Anna:</b> Entschuldigung, haben Sie dieses Waschmittel auch in einer <b>Variante</b> ohne Duftstoffe?
+🇮🇹 Mi scusi, avete questo detersivo anche in una variante senza sostanze profumate?
 
-<b>Gibt es dieses Produkt auch in einer Variante ohne Duft- und Farbstoffe?</b>
+🇩🇪 <b>Verkäuferin:</b> Ja, das finden Sie im Regal gegenüber – dort steht <b>ausschließlich</b> hypoallergene Ware.
+🇮🇹 Sì, lo trova nello scaffale di fronte – lì c'è esclusivamente merce ipoallergenica.
 
-🇮🇹 Esiste questo prodotto anche in una variante senza profumo e coloranti?
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>die Variante, -n</b>
-  = la variante
-
-• <b>der Inhaltsstoff, -e</b>
-  = l'ingrediente/componente
-
-• <b>Wo finde ich...?</b>
-  = Dove trovo...?
-
-💡 <b>C1-Ausdruck:</b>
-<b>Könnten Sie mir gegebenenfalls eine Alternative empfehlen?</b>
-= Potrebbe eventualmente consigliarmi un'alternativa?
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Beim Einkauf in der Drogerie erkundigen sich viele Kunden gezielt nach Produkten, die frei von Duft- oder Farbstoffen sind.
-Das Fachpersonal verfügt in der Regel über fundierte Kenntnisse und kann entsprechend passende Alternativen empfehlen.
-Wer sich unsicher ist, sollte nicht zögern, gezielt nach der genauen Zusammensetzung eines Produkts zu fragen.
-
-🇮🇹
-Facendo la spesa in profumeria, molti clienti si informano specificamente su prodotti privi di profumi o coloranti.
-Il personale specializzato dispone generalmente di conoscenze approfondite e può quindi consigliare alternative adatte.
-Chi non è sicuro non dovrebbe esitare a chiedere espressamente la composizione esatta di un prodotto.
+🇩🇪 <b>Anna:</b> Perfekt, genau danach habe ich gesucht, vielen Dank für den <b>Hinweis</b>.
+🇮🇹 Perfetto, è esattamente quello che cercavo, grazie mille per l'indicazione.
 
 📚 <b>Neue Wörter</b>
+• <b>die Variante</b> = la variante
+• <b>ausschließlich</b> = esclusivamente
+• <b>hypoallergen</b> = ipoallergenico
+• <b>der Hinweis</b> = l'indicazione
+• <b>der Duftstoff</b> = la sostanza profumata
 
-• <b>frei von etwas sein</b>
-  = essere privo di qualcosa
+💡 "ausschließlich" è un sinonimo elegante di "nur", molto usato su etichette e cartelli.
+""".strip(),
+        "midday": """
+🇩🇪 Beim Einkauf in der Drogerie <b>erkundigen sich</b> viele Kunden gezielt nach Produkten ohne Duft- oder Farbstoffe.
+🇮🇹 Facendo la spesa in profumeria, molti clienti si informano specificamente su prodotti privi di profumi o coloranti.
 
-• <b>über etwas verfügen</b>
-  = disporre di qualcosa
+🇩🇪 Das Fachpersonal verfügt in der Regel über <b>fundierte</b> Kenntnisse und kann entsprechend passende Alternativen empfehlen.
+🇮🇹 Il personale specializzato dispone generalmente di conoscenze approfondite e può quindi consigliare alternative adatte.
 
-• <b>zögern</b>
-  = esitare
+🇩🇪 Wer sich unsicher ist, sollte nicht <b>zögern</b>, gezielt nach der genauen Zusammensetzung zu fragen.
+🇮🇹 Chi non è sicuro non dovrebbe esitare a chiedere espressamente la composizione esatta.
 
-💡 <b>Struktur</b>
-<b>frei von + Dativ</b>: ein Produkt, das frei von Duftstoffen ist
-= costruzione formale tipica di etichette e testi tecnici.
+📚 <b>Neue Wörter</b>
+• <b>sich erkundigen nach</b> = informarsi su
+• <b>fundiert</b> = approfondito, solido
+• <b>zögern</b> = esitare
+• <b>die Zusammensetzung</b> = la composizione
+• <b>über etwas verfügen</b> = disporre di qualcosa
+
+💡 "sich erkundigen nach + Dativ" è un sinonimo più elegante di "fragen nach".
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
+🇩🇪 Ich <b>erkundige mich</b> gezielt nach Produkten ohne Duftstoffe.
+🇮🇹 Mi informo specificamente su prodotti privi di sostanze profumate.
 
-<b>Ich suche gezielt nach Produkten, die frei von Duftstoffen sind.</b>
-
-🇮🇹 Cerco specificamente prodotti privi di sostanze profumate.
+🇩🇪 Man sollte nicht <b>zögern</b>, nach der Zusammensetzung zu fragen.
+🇮🇹 Non si dovrebbe esitare a chiedere la composizione.
 
 🔁 <b>Wiederholung</b>
+• <b>sich erkundigen</b> = informarsi
+• <b>zögern</b> = esitare
+• <b>die Zusammensetzung</b> = la composizione
+• <b>fundiert</b> = solido, approfondito
+• <b>ausschließlich</b> = esclusivamente
 
-• <b>frei von</b> + Dativ
-• <b>sich erkundigen</b>
-• <b>zögern</b>
-
-<i>"sich erkundigen nach + Dativ" è un sinonimo più elegante di "fragen nach".</i>
+<i>Prova a fare una frase con "sich erkundigen nach" su qualcosa che vuoi sapere.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Lisa:</b> Guten Tag, ich rufe an, weil sich <b>bezüglich</b> meiner Bestellung eine <b>Unstimmigkeit ergeben</b> hat.
+🇮🇹 Buongiorno, chiamo perché è emersa una discrepanza riguardo al mio ordine.
 
-<b>Ich melde mich, weil sich bezüglich meiner Bestellung eine Unstimmigkeit ergeben hat.</b>
+🇩🇪 <b>Kundenservice:</b> Das tut mir leid zu hören, könnten Sie mir bitte Ihre Bestellnummer nennen?
+🇮🇹 Mi dispiace sentirlo, potrebbe indicarmi il numero d'ordine, per favore?
 
-🇮🇹 Vi contatto perché è emersa una discrepanza riguardo al mio ordine.
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>bezüglich</b> + Genitiv
-  = riguardo a, in merito a
-
-• <b>die Unstimmigkeit, -en</b>
-  = la discrepanza/incoerenza
-
-• <b>sich ergeben</b>
-  = emergere, presentarsi (una situazione)
-
-💡 <b>C1-Ausdruck:</b>
-<b>Ich würde mich freuen, zeitnah eine Rückmeldung zu erhalten.</b>
-= Sarei lieta di ricevere un riscontro a breve.
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Am Telefon empfiehlt es sich, sich zunächst kurz vorzustellen und den Anlass des Anrufs präzise zu benennen,
-sodass das Gegenüber von Beginn an einen klaren Überblick über das Anliegen erhält.
-Im weiteren Verlauf des Gesprächs sollte man sachlich bleiben, selbst wenn die Angelegenheit ärgerlich ist.
-
-🇮🇹
-Al telefono è consigliabile presentarsi brevemente all'inizio e indicare con precisione il motivo della chiamata,
-in modo che l'interlocutore abbia fin da subito un quadro chiaro della richiesta.
-Nel prosieguo della conversazione bisognerebbe rimanere obiettivi, anche qualora la questione fosse fastidiosa.
+🇩🇪 <b>Lisa:</b> Natürlich, einen Moment bitte, ich suche sie gerade heraus.
+🇮🇹 Certo, un momento per favore, la sto cercando.
 
 📚 <b>Neue Wörter</b>
+• <b>bezüglich</b> = riguardo a
+• <b>die Unstimmigkeit</b> = la discrepanza
+• <b>sich ergeben</b> = emergere, presentarsi
+• <b>heraussuchen</b> = tirare fuori, cercare
+• <b>der Kundenservice</b> = il servizio clienti
 
-• <b>der Anlass, -¨e</b>
-  = il motivo/occasione
+💡 "bezüglich + Genitiv" è un connettore formale tipico di lettere ed email di reclamo.
+""".strip(),
+        "midday": """
+🇩🇪 Am Telefon empfiehlt es sich, sich zunächst kurz vorzustellen und den <b>Anlass</b> des Anrufs präzise zu benennen.
+🇮🇹 Al telefono è consigliabile presentarsi brevemente all'inizio e indicare con precisione il motivo della chiamata.
 
-• <b>sachlich bleiben</b>
-  = rimanere obiettivo/professionale
+🇩🇪 So erhält das Gegenüber von Beginn an einen klaren Überblick über das <b>Anliegen</b>.
+🇮🇹 Così l'interlocutore ha fin da subito un quadro chiaro della richiesta.
 
-• <b>das Anliegen, -</b>
-  = la richiesta/questione da esporre
+🇩🇪 Im weiteren Gesprächsverlauf sollte man zudem <b>sachlich</b> bleiben, selbst wenn die Angelegenheit ärgerlich ist.
+🇮🇹 Nel prosieguo della conversazione bisognerebbe inoltre rimanere obiettivi, anche qualora la questione fosse fastidiosa.
 
-💡 <b>Struktur</b>
-<b>sodass</b> introduce una conseguenza logica: registro C1, più elegante di "deshalb" a inizio frase.
+📚 <b>Neue Wörter</b>
+• <b>der Anlass</b> = il motivo/occasione
+• <b>das Anliegen</b> = la richiesta
+• <b>sachlich</b> = obiettivo, professionale
+• <b>das Gegenüber</b> = l'interlocutore
+• <b>ärgerlich</b> = fastidioso
+
+💡 "sachlich bleiben" è un'espressione molto usata per dire "mantenere un tono professionale".
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
+🇩🇪 Ich habe angerufen, da sich <b>bezüglich</b> meiner Bestellung eine Unstimmigkeit ergeben hat.
+🇮🇹 Ho chiamato poiché è emersa una discrepanza riguardo al mio ordine.
 
-<b>Ich habe angerufen, da sich hinsichtlich meiner Bestellung eine Unklarheit ergeben hat.</b>
-
-🇮🇹 Ho chiamato poiché è sorta un'incertezza riguardo al mio ordine.
+🇩🇪 Man sollte am Telefon stets <b>sachlich</b> bleiben.
+🇮🇹 Al telefono bisognerebbe sempre rimanere obiettivi.
 
 🔁 <b>Wiederholung</b>
+• <b>bezüglich</b> = riguardo a
+• <b>die Unstimmigkeit</b> = la discrepanza
+• <b>sachlich</b> = obiettivo
+• <b>der Anlass</b> = il motivo
+• <b>das Anliegen</b> = la richiesta
 
-• <b>bezüglich / hinsichtlich</b> + Genitiv
-• <b>sich ergeben</b>
-• <b>sachlich bleiben</b>
-
-<i>"hinsichtlich" e "bezüglich" sono quasi intercambiabili nel tedesco scritto formale.</i>
+<i>Prova a fare una frase con "bezüglich" su un argomento di lavoro.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
-
-<b>Dürften wir die Speisekarte haben, sobald es Ihnen möglich ist?</b>
-
+🇩🇪 <b>Nina:</b> Könnten wir bitte die Speisekarte haben, <b>sobald</b> es Ihnen möglich ist?
 🇮🇹 Potremmo avere il menù, non appena vi è possibile?
 
-📚 <b>Heute lernen wir:</b>
+🇩🇪 <b>Kellner:</b> <b>Selbstverständlich</b>, ich bringe sie Ihnen sofort – möchten Sie schon etwas zu trinken bestellen?
+🇮🇹 Naturalmente, ve lo porto subito – volete già ordinare qualcosa da bere?
 
-• <b>sobald</b>
-  = non appena
-
-• <b>die Speisekarte, -n</b>
-  = il menù
-
-• <b>etwas in Anspruch nehmen</b>
-  = usufruire di qualcosa
-
-💡 <b>C1-Ausdruck:</b>
-<b>Könnten Sie uns gegebenenfalls etwas empfehlen?</b>
-= Potrebbe eventualmente consigliarci qualcosa?
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Im Restaurant gilt es üblicherweise, abzuwarten, bis ein Tisch zugewiesen wird,
-wohingegen man in weniger formellen Lokalen häufig selbst einen freien Platz aussuchen darf.
-Nach erfolgter Bestellung vergeht in der Regel nicht viel Zeit, bis die Speisen serviert werden.
-
-🇮🇹
-Al ristorante di norma bisogna attendere che venga assegnato un tavolo,
-mentre in locali meno formali si può spesso scegliere da sé un posto libero.
-Dopo aver effettuato l'ordinazione, di regola non passa molto tempo prima che le pietanze vengano servite.
+🇩🇪 <b>Nina:</b> Gerne, ich hätte <b>erstmal</b> ein stilles Wasser, danke.
+🇮🇹 Volentieri, intanto vorrei un'acqua naturale, grazie.
 
 📚 <b>Neue Wörter</b>
+• <b>sobald</b> = non appena
+• <b>selbstverständlich</b> = naturalmente, ovviamente
+• <b>erstmal</b> = per prima cosa, intanto
+• <b>die Speisekarte</b> = il menù
+• <b>bestellen</b> = ordinare
 
-• <b>wohingegen</b>
-  = mentre invece (contrasto sostenuto)
+💡 "erstmal" (forma parlata di "erst einmal") è molto comune nel tedesco colloquiale-elevato.
+""".strip(),
+        "midday": """
+🇩🇪 Im Restaurant gilt es üblicherweise, abzuwarten, bis ein Tisch <b>zugewiesen</b> wird.
+🇮🇹 Al ristorante di norma bisogna attendere che venga assegnato un tavolo.
 
-• <b>zuweisen</b>
-  = assegnare
+🇩🇪 In weniger <b>formellen</b> Lokalen darf man hingegen häufig selbst einen freien Platz aussuchen.
+🇮🇹 In locali meno formali si può invece spesso scegliere da sé un posto libero.
 
-• <b>nach erfolgter + Nomen</b>
-  = dopo che è avvenuto/a...
+🇩🇪 <b>Nach erfolgter</b> Bestellung vergeht in der Regel nicht viel Zeit, bis die Speisen serviert werden.
+🇮🇹 Dopo l'ordinazione, di regola non passa molto tempo prima che le pietanze vengano servite.
 
-💡 <b>Struktur</b>
-Partizip-Konstruktion: <b>nach erfolgter Bestellung</b> = "dopo che l'ordinazione è avvenuta" (registro C1 tipico di testi formali).
+📚 <b>Neue Wörter</b>
+• <b>zuweisen</b> = assegnare
+• <b>formell</b> = formale
+• <b>nach erfolgter + Nomen</b> = dopo che è avvenuto/a
+• <b>servieren</b> = servire
+• <b>das Lokal</b> = il locale
+
+💡 "nach erfolgter/erfolgtem..." è una costruzione con participio tipica del tedesco scritto elevato.
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
+🇩🇪 Im Restaurant wartet man üblicherweise, bis ein Tisch <b>zugewiesen</b> wird.
+🇮🇹 Al ristorante di norma si aspetta finché non viene assegnato un tavolo.
 
-<b>Könnten wir, sobald es Ihnen recht ist, um die Rechnung bitten?</b>
-
-🇮🇹 Potremmo chiedere il conto, non appena vi fa comodo?
+🇩🇪 <b>Nach erfolgter</b> Bestellung dauert es meist nicht lange, bis das Essen kommt.
+🇮🇹 Dopo l'ordinazione di solito non ci vuole molto prima che arrivi il cibo.
 
 🔁 <b>Wiederholung</b>
+• <b>zuweisen</b> = assegnare
+• <b>sobald</b> = non appena
+• <b>nach erfolgter</b> = dopo che è avvenuto
+• <b>formell</b> = formale
+• <b>die Speisekarte</b> = il menù
 
-• <b>sobald</b>
-• <b>wohingegen</b>
-• <b>Partizip-Konstruktion: nach erfolgter...</b>
-
-<i>Le costruzioni con participio ("nach erfolgter/erfolgtem...") sono un marchio distintivo del C1 scritto.</i>
+<i>Prova a fare una frase con "sobald" su qualcosa che farai non appena possibile.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Paul:</b> Der Zug hat sich schon wieder um zehn Minuten <b>verspätet</b>, was meinen Anschluss ernsthaft <b>gefährdet</b>.
+🇮🇹 Il treno ha di nuovo accumulato dieci minuti di ritardo, il che mette seriamente a rischio la mia coincidenza.
 
-<b>Der Zug hat sich um zehn Minuten verspätet, was den Anschluss gefährdet.</b>
+🇩🇪 <b>Sophie:</b> Das ist wirklich ärgerlich, hast du schon geschaut, ob es eine alternative <b>Verbindung</b> gibt?
+🇮🇹 È davvero fastidioso, hai già controllato se c'è un collegamento alternativo?
 
-🇮🇹 Il treno ha accumulato dieci minuti di ritardo, il che mette a rischio la coincidenza.
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>sich verspäten</b>
-  = ritardare (di per sé)
-
-• <b>gefährden</b>
-  = mettere a rischio
-
-• <b>der Anschluss, -¨e</b>
-  = la coincidenza
-
-💡 <b>C1-Ausdruck:</b>
-<b>was + Verb</b> als Nebensatz: eine Konsequenz einleitend, z. B. „..., was bedeutet, dass..."
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Obgleich die Deutsche Bahn früher für ihre Zuverlässigkeit bekannt war, kommt es mittlerweile häufiger zu Verspätungen,
-was insbesondere bei knapp bemessenen Umstiegszeiten zu erheblichem Zeitdruck führen kann.
-Wer über einen Anschlusszug verfügt, sollte den Durchsagen im Zug daher besondere Aufmerksamkeit widmen.
-
-🇮🇹
-Sebbene la Deutsche Bahn fosse un tempo nota per la sua affidabilità, oggi i ritardi sono diventati più frequenti,
-il che può causare notevole pressione temporale, specialmente quando i tempi di cambio sono ridotti.
-Chi ha una coincidenza dovrebbe pertanto prestare particolare attenzione agli annunci a bordo treno.
+🇩🇪 <b>Paul:</b> Noch nicht, aber ich werde gleich die App checken, bevor es zu spät ist.
+🇮🇹 Non ancora, ma controllo subito l'app, prima che sia troppo tardi.
 
 📚 <b>Neue Wörter</b>
+• <b>sich verspäten</b> = ritardare
+• <b>gefährden</b> = mettere a rischio
+• <b>die Verbindung</b> = il collegamento
+• <b>der Anschluss</b> = la coincidenza
+• <b>ärgerlich</b> = fastidioso
 
-• <b>obgleich</b>
-  = sebbene (sinonimo sostenuto di "obwohl")
+💡 "gefährden" è un verbo transitivo forte, molto usato in contesti di sicurezza e pianificazione.
+""".strip(),
+        "midday": """
+🇩🇪 <b>Obgleich</b> die Deutsche Bahn früher für ihre Zuverlässigkeit bekannt war, kommt es mittlerweile häufiger zu Verspätungen.
+🇮🇹 Sebbene la Deutsche Bahn fosse un tempo nota per la sua affidabilità, oggi i ritardi sono diventati più frequenti.
 
-• <b>knapp bemessen</b>
-  = calcolato con margine ridotto
+🇩🇪 Das kann besonders bei <b>knapp bemessenen</b> Umstiegszeiten zu erheblichem Zeitdruck führen.
+🇮🇹 Questo può causare, specialmente con tempi di cambio ridotti, una notevole pressione temporale.
 
-• <b>Aufmerksamkeit widmen</b>
-  = dedicare attenzione
+🇩🇪 Wer einen Anschlusszug hat, sollte den Durchsagen im Zug daher besondere <b>Aufmerksamkeit widmen</b>.
+🇮🇹 Chi ha una coincidenza dovrebbe pertanto prestare particolare attenzione agli annunci a bordo treno.
 
-💡 <b>Struktur</b>
-<b>obgleich</b> come alternativa colta a <b>obwohl</b>: entrambi introducono un Nebensatz concessivo.
+📚 <b>Neue Wörter</b>
+• <b>obgleich</b> = sebbene
+• <b>knapp bemessen</b> = calcolato con margine ridotto
+• <b>Aufmerksamkeit widmen</b> = dedicare attenzione
+• <b>die Zuverlässigkeit</b> = l'affidabilità
+• <b>der Zeitdruck</b> = la pressione temporale
+
+💡 "obgleich" è un sinonimo colto di "obwohl", entrambi introducono un Nebensatz concessivo.
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
-
-<b>Ich habe meinen Anschlusszug verpasst, obgleich ich rechtzeitig am Bahnsteig war.</b>
-
+🇩🇪 Ich habe meinen Anschlusszug verpasst, <b>obgleich</b> ich rechtzeitig am Bahnsteig war.
 🇮🇹 Ho perso la coincidenza, sebbene fossi in tempo sul binario.
 
+🇩🇪 Man sollte den Durchsagen stets <b>Aufmerksamkeit widmen</b>.
+🇮🇹 Bisognerebbe sempre dedicare attenzione agli annunci.
+
 🔁 <b>Wiederholung</b>
+• <b>sich verspäten</b> = ritardare
+• <b>obgleich</b> = sebbene
+• <b>gefährden</b> = mettere a rischio
+• <b>Aufmerksamkeit widmen</b> = dedicare attenzione
+• <b>die Verbindung</b> = il collegamento
 
-• <b>sich verspäten</b>
-• <b>obgleich</b>
-• <b>Aufmerksamkeit widmen</b>
-
-<i>Prova a sostituire "obwohl" con "obgleich" in una frase per alzare leggermente il registro.</i>
+<i>Prova a sostituire "obwohl" con "obgleich" in una frase.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Max:</b> Ich hätte gerne ein Vollkornbrot und könnten Sie es mir <b>direkt</b> in Scheiben <b>schneiden lassen</b>?
+🇮🇹 Vorrei un pane integrale e potrebbe farmelo tagliare direttamente a fette?
 
-<b>Dürfte ich Sie bitten, mir das Brot in Scheiben schneiden zu lassen?</b>
+🇩🇪 <b>Verkäufer:</b> Aber natürlich, das mache ich Ihnen gerne – sonst noch etwas <b>gewünscht</b>?
+🇮🇹 Ma certo, lo faccio volentieri – desidera altro?
 
-🇮🇹 Potrei chiederle di farmi tagliare il pane a fette?
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>jemanden bitten, etwas zu tun</b>
-  = chiedere a qualcuno di fare qualcosa
-
-• <b>in Scheiben schneiden</b>
-  = tagliare a fette
-
-• <b>frisch gebacken</b>
-  = appena sfornato
-
-💡 <b>C1-Ausdruck:</b>
-<b>Dürfte ich Sie bitten, ...?</b>
-= registro molto formale, più elegante di "Können Sie...?"
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Insbesondere an Wochenenden bilden sich vor zahlreichen Bäckereien lange Schlangen,
-was nicht zuletzt an der großen Auswahl an frisch gebackenem Brot und Gebäck liegt.
-Auf Wunsch der Kundschaft wird das Brot in der Regel direkt vor Ort geschnitten.
-
-🇮🇹
-Soprattutto nei fine settimana si formano lunghe code davanti a numerose panetterie,
-il che è dovuto non da ultimo alla vasta scelta di pane e prodotti da forno appena sfornati.
-Su richiesta della clientela, il pane viene di norma tagliato direttamente sul posto.
+🇩🇪 <b>Max:</b> Nein danke, das wäre für heute alles.
+🇮🇹 No grazie, per oggi sarebbe tutto.
 
 📚 <b>Neue Wörter</b>
+• <b>schneiden lassen</b> = far tagliare
+• <b>gewünscht</b> = desiderato
+• <b>das Vollkornbrot</b> = il pane integrale
+• <b>sonst noch etwas?</b> = desidera altro?
+• <b>direkt</b> = direttamente
 
-• <b>nicht zuletzt</b>
-  = non da ultimo, in particolare anche
+💡 "lassen" + Infinitiv esprime un'azione causativa: "far fare qualcosa a qualcun altro".
+""".strip(),
+        "midday": """
+🇩🇪 Insbesondere an Wochenenden bilden sich vor zahlreichen Bäckereien lange Schlangen.
+🇮🇹 Soprattutto nei fine settimana si formano lunghe code davanti a numerose panetterie.
 
-• <b>die Auswahl, -en</b>
-  = la scelta
+🇩🇪 Das liegt <b>nicht zuletzt</b> an der großen <b>Auswahl</b> an frisch gebackenem Brot und Gebäck.
+🇮🇹 Ciò è dovuto non da ultimo alla vasta scelta di pane e prodotti da forno appena sfornati.
 
-• <b>vor Ort</b>
-  = sul posto
+🇩🇪 Auf Wunsch der Kundschaft wird das Brot in der Regel direkt <b>vor Ort</b> geschnitten.
+🇮🇹 Su richiesta della clientela, il pane viene di norma tagliato direttamente sul posto.
 
-💡 <b>Struktur</b>
-<b>lassen</b> + Infinitiv (causativo): sich das Brot schneiden lassen
-= far fare qualcosa a qualcun altro (registro medio-alto).
+📚 <b>Neue Wörter</b>
+• <b>nicht zuletzt</b> = non da ultimo
+• <b>die Auswahl</b> = la scelta
+• <b>vor Ort</b> = sul posto
+• <b>die Kundschaft</b> = la clientela
+• <b>sich bilden</b> = formarsi
+
+💡 "nicht zuletzt" introduce una ragione importante tra tante, molto usata in testi descrittivi.
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
-
-<b>Ich lasse mir das Brot grundsätzlich immer frisch schneiden.</b>
-
+🇩🇪 Ich lasse mir das Brot grundsätzlich immer frisch <b>schneiden</b>.
 🇮🇹 Mi faccio sempre tagliare il pane fresco, in linea di principio.
 
+🇩🇪 Die große Auswahl liegt <b>nicht zuletzt</b> an den vielen frischen Sorten.
+🇮🇹 La vasta scelta è dovuta non da ultimo alle molte varietà fresche.
+
 🔁 <b>Wiederholung</b>
+• <b>nicht zuletzt</b> = non da ultimo
+• <b>die Auswahl</b> = la scelta
+• <b>schneiden lassen</b> = far tagliare
+• <b>vor Ort</b> = sul posto
+• <b>die Kundschaft</b> = la clientela
 
-• <b>nicht zuletzt</b>
-• <b>lassen</b> + Infinitiv
-• <b>grundsätzlich</b>
-
-<i>"grundsätzlich" è un avverbio molto usato in C1 per esprimere "come regola generale".</i>
+<i>Prova a fare una frase con "nicht zuletzt" su un motivo importante tra tanti.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
-
-<b>Ich würde gerne ein Paket abholen, das offenbar bei Ihnen hinterlegt wurde.</b>
-
+🇩🇪 <b>Julia:</b> Ich würde gerne ein Paket abholen, das <b>offenbar</b> bei Ihnen <b>hinterlegt</b> wurde.
 🇮🇹 Vorrei ritirare un pacco che a quanto pare è stato depositato da voi.
 
-📚 <b>Heute lernen wir:</b>
+🇩🇪 <b>Postangestellter:</b> Haben Sie zufällig die Benachrichtigungskarte und einen <b>gültigen</b> Ausweis dabei?
+🇮🇹 Ha per caso con sé la cartolina di avviso e un documento valido?
 
-• <b>offenbar</b>
-  = a quanto pare, evidentemente
-
-• <b>hinterlegen</b>
-  = depositare
-
-• <b>die Benachrichtigung, -en</b>
-  = l'avviso
-
-💡 <b>C1-Ausdruck:</b>
-<b>Es dürfte sich um ein Missverständnis handeln.</b>
-= Si tratterà probabilmente di un malinteso (Vermutung, congettura educata).
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Sollte bei der Zustellung niemand angetroffen werden, wird die Sendung üblicherweise bei einem Nachbarn
-oder in einer nahegelegenen Filiale hinterlegt, worüber man in der Regel per Benachrichtigungskarte informiert wird.
-Zur Abholung sind sodann diese Karte sowie ein gültiger Lichtbildausweis vorzulegen.
-
-🇮🇹
-Qualora al momento della consegna non si trovasse nessuno, la spedizione viene di norma lasciata da un vicino
-o in un punto vendita nelle vicinanze, di cui si viene informati tramite una cartolina di avviso.
-Per il ritiro vanno quindi presentati tale cartolina e un documento d'identità valido con foto.
+🇩🇪 <b>Julia:</b> Ja, beides habe ich hier, einen Moment bitte.
+🇮🇹 Sì, ho entrambi qui, un momento per favore.
 
 📚 <b>Neue Wörter</b>
+• <b>offenbar</b> = a quanto pare
+• <b>hinterlegen</b> = depositare
+• <b>gültig</b> = valido
+• <b>die Benachrichtigung</b> = l'avviso
+• <b>zufällig</b> = per caso
 
-• <b>antreffen</b>
-  = trovare (qualcuno a casa)
+💡 "offenbar" esprime una supposizione basata su indizi evidenti, simile a "anscheinend".
+""".strip(),
+        "midday": """
+🇩🇪 Sollte bei der Zustellung niemand <b>angetroffen</b> werden, wird die <b>Sendung</b> meist bei einem Nachbarn hinterlegt.
+🇮🇹 Qualora al momento della consegna non si trovasse nessuno, la spedizione viene di solito lasciata da un vicino.
 
-• <b>der Lichtbildausweis, -e</b>
-  = documento con foto
+🇩🇪 Darüber wird man in der Regel per Benachrichtigungskarte informiert.
+🇮🇹 Di ciò si viene di norma informati tramite una cartolina di avviso.
 
-• <b>vorlegen</b>
-  = presentare/esibire
+🇩🇪 Zur Abholung sind <b>sodann</b> diese Karte sowie ein gültiger Ausweis <b>vorzulegen</b>.
+🇮🇹 Per il ritiro vanno quindi presentati tale cartolina e un documento d'identità valido.
 
-💡 <b>Struktur</b>
-<b>sodann</b> = quindi, poi (connettore formale usato per sequenze burocratiche).
+📚 <b>Neue Wörter</b>
+• <b>antreffen</b> = trovare (qualcuno a casa)
+• <b>die Sendung</b> = la spedizione
+• <b>vorlegen</b> = presentare, esibire
+• <b>sodann</b> = quindi, poi
+• <b>die Zustellung</b> = la consegna
+
+💡 "sodann" è un connettore formale per introdurre il passo successivo di una procedura.
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
+🇩🇪 Das Paket dürfte bereits bei der Post <b>hinterlegt</b> worden sein.
+🇮🇹 Il pacco dovrebbe essere già stato depositato alla posta.
 
-<b>Das Paket dürfte, meiner Vermutung nach, bereits bei der Post hinterlegt worden sein.</b>
-
-🇮🇹 Il pacco, secondo la mia supposizione, dovrebbe essere già stato depositato alla posta.
+🇩🇪 Zur Abholung ist ein gültiger Ausweis <b>vorzulegen</b>.
+🇮🇹 Per il ritiro va presentato un documento d'identità valido.
 
 🔁 <b>Wiederholung</b>
+• <b>offenbar</b> = a quanto pare
+• <b>hinterlegen</b> = depositare
+• <b>vorlegen</b> = presentare
+• <b>die Sendung</b> = la spedizione
+• <b>antreffen</b> = trovare
 
-• <b>offenbar</b>
-• <b>vorlegen</b>
-• <b>dürfte + Infinitiv Perfekt</b> (congettura sul passato)
-
-<i>"dürfte + Partizip II + sein/haben" esprime una supposizione elegante sul passato: tipico C1.</i>
+<i>Prova a fare una frase con "dürfte + Partizip II + sein", una supposizione sul passato.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Tobias:</b> Ich würde meine Mitgliedschaft gerne <b>fristgerecht</b> kündigen, weiß aber nicht genau, wie die Frist läuft.
+🇮🇹 Vorrei disdire il mio abbonamento nei termini, ma non so esattamente come funziona la scadenza.
 
-<b>Ich würde meine Mitgliedschaft gerne fristgerecht kündigen.</b>
+🇩🇪 <b>Mitarbeiterin:</b> Die <b>Kündigungsfrist</b> beträgt bei uns einen Monat zum Vertragsende.
+🇮🇹 Da noi il termine di disdetta è di un mese rispetto alla fine del contratto.
 
-🇮🇹 Vorrei disdire il mio abbonamento nel rispetto dei termini.
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>fristgerecht</b>
-  = entro i termini, tempestivamente
-
-• <b>kündigen</b>
-  = disdire
-
-• <b>die Kündigungsfrist, -en</b>
-  = il termine di disdetta
-
-💡 <b>C1-Ausdruck:</b>
-<b>Ich bitte um Bestätigung des Erhalts dieser Kündigung.</b>
-= Chiedo conferma della ricezione di questa disdetta (linguaggio da lettera formale).
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Zahlreiche Fitnessstudios setzen eine Mindestvertragslaufzeit von zwölf Monaten voraus,
-wobei sich der Vertrag anschließend häufig automatisch verlängert, sofern nicht fristgerecht gekündigt wird.
-Es empfiehlt sich daher dringend, den Kündigungstermin frühzeitig im Kalender zu vermerken.
-
-🇮🇹
-Numerose palestre presuppongono una durata contrattuale minima di dodici mesi,
-laddove il contratto si rinnova poi spesso automaticamente, a meno che non venga disdetto nei termini.
-Si consiglia pertanto vivamente di annotare per tempo la data di disdetta sul calendario.
+🇩🇪 <b>Tobias:</b> Verstanden, dann <b>reiche</b> ich die Kündigung noch diese Woche <b>ein</b>.
+🇮🇹 Capito, allora presento la disdetta già questa settimana.
 
 📚 <b>Neue Wörter</b>
+• <b>fristgerecht</b> = entro i termini
+• <b>die Kündigungsfrist</b> = il termine di disdetta
+• <b>einreichen</b> = presentare, consegnare
+• <b>betragen</b> = ammontare a
+• <b>kündigen</b> = disdire
 
-• <b>voraussetzen</b>
-  = presupporre
+💡 "einreichen" è il verbo standard per "presentare/consegnare" documenti formali.
+""".strip(),
+        "midday": """
+🇩🇪 Zahlreiche Fitnessstudios setzen eine Mindestvertragslaufzeit von zwölf Monaten <b>voraus</b>.
+🇮🇹 Numerose palestre presuppongono una durata contrattuale minima di dodici mesi.
 
-• <b>sofern</b>
-  = a condizione che, purché
+🇩🇪 Danach verlängert sich der Vertrag häufig automatisch, <b>sofern</b> nicht fristgerecht gekündigt wird.
+🇮🇹 Dopodiché il contratto si rinnova spesso automaticamente, a meno che non venga disdetto nei termini.
 
-• <b>vermerken</b>
-  = annotare
+🇩🇪 Es empfiehlt sich daher dringend, den Kündigungstermin frühzeitig zu <b>vermerken</b>.
+🇮🇹 Si consiglia pertanto vivamente di annotare per tempo la data di disdetta.
 
-💡 <b>Struktur</b>
-<b>sofern nicht</b> + Nebensatz = a meno che non (registro giuridico-formale).
+📚 <b>Neue Wörter</b>
+• <b>voraussetzen</b> = presupporre
+• <b>sofern</b> = a condizione che
+• <b>vermerken</b> = annotare
+• <b>sich verlängern</b> = rinnovarsi
+• <b>die Laufzeit</b> = la durata
+
+💡 "sofern nicht" = a meno che non: registro giuridico-formale, comune nei contratti.
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
-
-<b>Ich möchte die Mitgliedschaft hiermit fristgerecht zum Monatsende kündigen.</b>
-
+🇩🇪 Ich möchte die Mitgliedschaft hiermit <b>fristgerecht</b> zum Monatsende kündigen.
 🇮🇹 Con la presente vorrei disdire l'abbonamento nei termini, a fine mese.
 
+🇩🇪 Der Vertrag verlängert sich automatisch, <b>sofern</b> nicht rechtzeitig gekündigt wird.
+🇮🇹 Il contratto si rinnova automaticamente, a meno che non venga disdetto in tempo.
+
 🔁 <b>Wiederholung</b>
+• <b>fristgerecht</b> = entro i termini
+• <b>sofern</b> = a condizione che
+• <b>vermerken</b> = annotare
+• <b>voraussetzen</b> = presupporre
+• <b>die Laufzeit</b> = la durata
 
-• <b>fristgerecht</b>
-• <b>sofern</b>
-• <b>hiermit</b> (con la presente)
-
-<i>"hiermit" è tipico dell'apertura di lettere/email formali di disdetta o richiesta.</i>
+<i>Prova a fare una frase con "sofern nicht" su una condizione contrattuale.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Anna:</b> Steht die Wohnung, die wir letzte Woche besichtigt haben, eigentlich noch <b>zur Verfügung</b>?
+🇮🇹 L'appartamento che abbiamo visitato la settimana scorsa è ancora disponibile?
 
-<b>Steht die besichtigte Wohnung nach wie vor zur Verfügung?</b>
+🇩🇪 <b>David:</b> Ich glaube schon, aber wir sollten uns <b>beeilen</b>, der Markt ist gerade extrem <b>angespannt</b>.
+🇮🇹 Credo di sì, ma dovremmo sbrigarci, il mercato in questo momento è estremamente teso.
 
-🇮🇹 L'appartamento visitato è ancora disponibile?
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>zur Verfügung stehen</b>
-  = essere disponibile
-
-• <b>die Besichtigung, -en</b>
-  = la visita (di un immobile)
-
-• <b>die Kaution, -en</b>
-  = la cauzione
-
-💡 <b>C1-Ausdruck:</b>
-<b>Ich wäre Ihnen verbunden, wenn...</b>
-= Le sarei grata se... (registro molto formale, alternativa a "dankbar")
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Auf dem angespannten deutschen Wohnungsmarkt ist es mittlerweile üblich, sich schriftlich für eine Besichtigung zu bewerben,
-wobei in der Regel Unterlagen wie ein Einkommensnachweis oder eine Schufa-Auskunft vorausgesetzt werden.
-Wer eine Wohnung als überzeugend empfindet, sollte sich folglich ohne Verzögerung melden.
-
-🇮🇹
-Nel teso mercato immobiliare tedesco è ormai comune candidarsi per iscritto a una visita,
-laddove di norma vengono richiesti documenti come una prova di reddito o un rapporto Schufa.
-Chi trova un appartamento convincente dovrebbe di conseguenza farsi sentire senza indugio.
+🇩🇪 <b>Anna:</b> Da hast du recht, ich schreibe der Vermieterin gleich heute noch.
+🇮🇹 Hai ragione, scrivo oggi stesso alla proprietaria.
 
 📚 <b>Neue Wörter</b>
+• <b>zur Verfügung stehen</b> = essere disponibile
+• <b>sich beeilen</b> = affrettarsi
+• <b>angespannt</b> = teso
+• <b>besichtigen</b> = visitare (un immobile)
+• <b>der Markt</b> = il mercato
 
-• <b>angespannt</b>
-  = teso, sotto pressione (mercato)
+💡 "zur Verfügung stehen" è un'espressione fissa molto comune per dire "essere disponibile".
+""".strip(),
+        "midday": """
+🇩🇪 Auf dem <b>angespannten</b> deutschen Wohnungsmarkt ist es mittlerweile üblich, sich schriftlich zu bewerben.
+🇮🇹 Nel teso mercato immobiliare tedesco è ormai comune candidarsi per iscritto.
 
-• <b>voraussetzen</b>
-  = richiedere/presupporre
+🇩🇪 Dabei werden in der Regel Unterlagen wie ein Einkommensnachweis <b>vorausgesetzt</b>.
+🇮🇹 In questo caso vengono di norma richiesti documenti come una prova di reddito.
 
-• <b>folglich</b>
-  = di conseguenza
+🇩🇪 Wer eine Wohnung überzeugend findet, sollte sich <b>folglich</b> ohne Verzögerung melden.
+🇮🇹 Chi trova un appartamento convincente dovrebbe quindi farsi sentire senza indugio.
 
-💡 <b>Struktur</b>
-<b>folglich</b> come connettore logico sostenuto, alternativa elegante a "also/deshalb".
+📚 <b>Neue Wörter</b>
+• <b>sich bewerben</b> = candidarsi
+• <b>voraussetzen</b> = richiedere, presupporre
+• <b>folglich</b> = di conseguenza
+• <b>die Unterlagen</b> = i documenti
+• <b>die Verzögerung</b> = il ritardo
+
+💡 "folglich" è un connettore logico sostenuto, alternativa elegante a "also/deshalb".
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
-
-<b>Die besichtigte Wohnung hat mir außerordentlich gut gefallen.</b>
-
+🇩🇪 Die besichtigte Wohnung hat mir außerordentlich gut gefallen.
 🇮🇹 L'appartamento visitato mi è piaciuto straordinariamente.
 
+🇩🇪 Man sollte sich auf dem <b>angespannten</b> Markt <b>folglich</b> schnell melden.
+🇮🇹 Sul mercato teso bisognerebbe quindi farsi sentire in fretta.
+
 🔁 <b>Wiederholung</b>
+• <b>zur Verfügung stehen</b> = essere disponibile
+• <b>angespannt</b> = teso
+• <b>folglich</b> = di conseguenza
+• <b>sich bewerben</b> = candidarsi
+• <b>voraussetzen</b> = richiedere
 
-• <b>zur Verfügung stehen</b>
-• <b>angespannt</b>
-• <b>folglich</b>
-
-<i>"besichtigt" come Partizip-Attribut prima del nome ("die besichtigte Wohnung") è puro stile C1.</i>
+<i>Prova a fare una frase con "folglich" per esprimere una conseguenza.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Lisa:</b> Ich <b>beabsichtige</b>, meinen Wohnsitz möglichst bald anzumelden, bevor die Frist <b>abläuft</b>.
+🇮🇹 Ho intenzione di registrare la mia residenza il prima possibile, prima che scada il termine.
 
-<b>Ich beabsichtige, meinen Wohnsitz fristgerecht anzumelden.</b>
+🇩🇪 <b>Jonas:</b> Dann würde ich dir <b>raten</b>, so schnell wie möglich online einen Termin zu buchen.
+🇮🇹 Allora ti consiglierei di prenotare un appuntamento online il prima possibile.
 
-🇮🇹 Ho intenzione di registrare la mia residenza entro i termini previsti.
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>beabsichtigen</b>
-  = avere l'intenzione di (più formale di "vorhaben")
-
-• <b>der Wohnsitz, -e</b>
-  = la residenza
-
-• <b>anmelden</b>
-  = registrare
-
-💡 <b>C1-Ausdruck:</b>
-<b>Muss ich hierfür zwingend einen Termin vereinbaren?</b>
-= Devo necessariamente fissare un appuntamento per questo?
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Nach einem Umzug ist man verpflichtet, sich innerhalb von zwei Wochen beim zuständigen Bürgeramt anzumelden,
-wofür der Mietvertrag sowie eine Wohnungsgeberbestätigung des Vermieters vorzulegen sind.
-Im Anschluss an den Termin erhält man eine Meldebescheinigung, die sorgfältig aufzubewahren ist.
-
-🇮🇹
-Dopo un trasloco si è tenuti a registrarsi presso l'ufficio anagrafe competente entro due settimane,
-per cui vanno presentati il contratto d'affitto e una conferma del locatore.
-In seguito all'appuntamento si riceve un certificato di residenza, da conservare con cura.
+🇩🇪 <b>Lisa:</b> Guter Hinweis, das mache ich gleich heute Abend noch.
+🇮🇹 Buon suggerimento, lo faccio già stasera.
 
 📚 <b>Neue Wörter</b>
+• <b>beabsichtigen</b> = avere l'intenzione di
+• <b>ablaufen</b> = scadere
+• <b>raten</b> = consigliare
+• <b>der Wohnsitz</b> = la residenza
+• <b>anmelden</b> = registrare
 
-• <b>verpflichtet sein</b>
-  = essere tenuto/obbligato a
+💡 "beabsichtigen" è più formale di "vorhaben", tipico di testi scritti e amministrativi.
+""".strip(),
+        "midday": """
+🇩🇪 Nach einem Umzug ist man <b>verpflichtet</b>, sich innerhalb von zwei Wochen beim Bürgeramt anzumelden.
+🇮🇹 Dopo un trasloco si è tenuti a registrarsi presso l'ufficio anagrafe entro due settimane.
 
-• <b>zuständig</b>
-  = competente (per una pratica)
+🇩🇪 Hierfür sind der Mietvertrag sowie eine Wohnungsgeberbestätigung des Vermieters <b>vorzulegen</b>.
+🇮🇹 Per questo vanno presentati il contratto d'affitto e una conferma del locatore.
 
-• <b>sorgfältig</b>
-  = con cura, accuratamente
+🇩🇪 Im Anschluss an den Termin erhält man eine Meldebescheinigung, die <b>sorgfältig</b> aufzubewahren ist.
+🇮🇹 In seguito all'appuntamento si riceve un certificato di residenza, da conservare con cura.
 
-💡 <b>Struktur</b>
-<b>Passiv mit Modalverb + zu:</b> ... sind vorzulegen / ist aufzubewahren
-= forma burocratica impersonale, molto frequente in testi ufficiali C1.
+📚 <b>Neue Wörter</b>
+• <b>verpflichtet sein</b> = essere tenuto a
+• <b>vorlegen</b> = presentare
+• <b>sorgfältig</b> = con cura
+• <b>die Meldebescheinigung</b> = il certificato di residenza
+• <b>der Umzug</b> = il trasloco
+
+💡 Il Passiv con "zu" (vorzulegen, aufzubewahren) è tipico del linguaggio amministrativo.
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
-
-<b>Der Mietvertrag ist zwingend vorzulegen, um sich ordnungsgemäß anzumelden.</b>
-
+🇩🇪 Der Mietvertrag ist zwingend <b>vorzulegen</b>, um sich ordnungsgemäß anzumelden.
 🇮🇹 Il contratto d'affitto va presentato obbligatoriamente per registrarsi correttamente.
 
+🇩🇪 Die Meldebescheinigung sollte man <b>sorgfältig</b> aufbewahren.
+🇮🇹 Il certificato di residenza andrebbe conservato con cura.
+
 🔁 <b>Wiederholung</b>
+• <b>beabsichtigen</b> = avere intenzione
+• <b>verpflichtet sein</b> = essere tenuto a
+• <b>vorlegen</b> = presentare
+• <b>sorgfältig</b> = con cura
+• <b>ablaufen</b> = scadere
 
-• <b>beabsichtigen</b>
-• <b>zuständig</b>
-• <b>Passiv mit zu: ist vorzulegen</b>
-
-<i>"ordnungsgemäß" (in modo regolare/corretto) è un avverbio molto tipico dei testi amministrativi.</i>
+<i>Prova a fare una frase con "verpflichtet sein zu" su un obbligo che hai.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Sophie:</b> Ich hätte gerne <b>lediglich</b> die Spitzen nachgeschnitten, ansonsten bleibt alles <b>wie gehabt</b>.
+🇮🇹 Vorrei che mi spuntaste solo le punte, per il resto tutto come al solito.
 
-<b>Ich hätte gerne lediglich die Spitzen nachgeschnitten, ansonsten bleibt alles wie gehabt.</b>
+🇩🇪 <b>Friseurin:</b> Verstanden, und wie hätten Sie es gerne mit dem <b>Ansatz</b>?
+🇮🇹 Capito, e come lo vorrebbe con la ricrescita?
 
-🇮🇹 Vorrei solo che mi spuntassero le punte, per il resto tutto come al solito.
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>lediglich</b>
-  = soltanto, unicamente (registro sostenuto)
-
-• <b>nachschneiden</b>
-  = spuntare, ritoccare il taglio
-
-• <b>wie gehabt</b>
-  = come al solito, come prima
-
-💡 <b>C1-Ausdruck:</b>
-<b>Wie hätten Sie es sich vorgestellt?</b>
-= Come se lo era immaginato/a? (domanda elegante del parrucchiere)
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Beim Friseurbesuch empfiehlt es sich, die gewünschte Haarlänge möglichst präzise zu umschreiben,
-zumal ein missverständlicher Auftrag im Nachhinein nur schwer zu korrigieren ist.
-Ein mitgebrachtes Referenzfoto erweist sich dabei häufig als hilfreicher als eine rein verbale Beschreibung.
-
-🇮🇹
-Durante la visita dal parrucchiere è consigliabile descrivere con la massima precisione la lunghezza desiderata,
-tanto più che un incarico frainteso è poi difficile da correggere.
-Una foto di riferimento portata con sé si rivela spesso più utile di una descrizione puramente verbale.
+🇩🇪 <b>Sophie:</b> Den können Sie gerne so lassen, wie er ist.
+🇮🇹 Quella può lasciarla pure com'è.
 
 📚 <b>Neue Wörter</b>
+• <b>lediglich</b> = soltanto
+• <b>wie gehabt</b> = come al solito
+• <b>der Ansatz</b> = la ricrescita
+• <b>nachschneiden</b> = spuntare
+• <b>die Spitzen</b> = le punte
 
-• <b>umschreiben</b>
-  = descrivere/parafrasare
+💡 "lediglich" è un sinonimo sostenuto di "nur", frequente nel tedesco scritto.
+""".strip(),
+        "midday": """
+🇩🇪 Beim Friseurbesuch empfiehlt es sich, die gewünschte Länge möglichst präzise zu <b>umschreiben</b>.
+🇮🇹 Durante la visita dal parrucchiere è consigliabile descrivere con la massima precisione la lunghezza desiderata.
 
-• <b>missverständlich</b>
-  = equivocabile, ambiguo
+🇩🇪 Ein <b>missverständlicher</b> Auftrag ist nämlich im Nachhinein nur schwer zu korrigieren.
+🇮🇹 Un incarico frainteso è infatti poi difficile da correggere a posteriori.
 
-• <b>im Nachhinein</b>
-  = a posteriori, dopo
+🇩🇪 Ein mitgebrachtes Referenzfoto erweist sich dabei oft als hilfreicher als eine rein verbale Beschreibung.
+🇮🇹 Una foto di riferimento portata con sé si rivela spesso più utile di una descrizione puramente verbale.
 
-💡 <b>Struktur</b>
-<b>sich als hilfreicher erweisen als</b> = rivelarsi più utile di: comparativo elegante con "sich erweisen als".
+📚 <b>Neue Wörter</b>
+• <b>umschreiben</b> = descrivere, parafrasare
+• <b>missverständlich</b> = equivocabile
+• <b>im Nachhinein</b> = a posteriori
+• <b>sich erweisen als</b> = rivelarsi
+• <b>hilfreich</b> = utile
+
+💡 "im Nachhinein" è un'espressione temporale molto usata per dire "a posteriori, dopo".
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
-
-<b>Ich hätte die Haare gerne etwas kürzer, ohne dass die Form dabei verloren geht.</b>
-
+🇩🇪 Ich hätte die Haare gerne etwas kürzer, ohne dass die Form verloren geht.
 🇮🇹 Vorrei i capelli un po' più corti, senza che la forma vada perduta.
 
+🇩🇪 Ein <b>missverständlicher</b> Auftrag ist <b>im Nachhinein</b> schwer zu korrigieren.
+🇮🇹 Un incarico frainteso è difficile da correggere a posteriori.
+
 🔁 <b>Wiederholung</b>
+• <b>lediglich</b> = soltanto
+• <b>umschreiben</b> = descrivere
+• <b>missverständlich</b> = equivocabile
+• <b>im Nachhinein</b> = a posteriori
+• <b>der Ansatz</b> = la ricrescita
 
-• <b>lediglich</b>
-• <b>umschreiben</b>
-• <b>ohne dass</b> + Nebensatz
-
-<i>"ohne dass" richiede l'indicativo (non il congiuntivo), a differenza dell'italiano "senza che".</i>
+<i>Prova a fare una frase con "im Nachhinein" su qualcosa capito troppo tardi.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Nina:</b> Den Vorhersagen <b>zufolge</b> soll es den ganzen Tag über regnen, was ich ehrlich gesagt gar nicht brauche.
+🇮🇹 Secondo le previsioni dovrebbe piovere tutto il giorno, cosa di cui francamente non ho affatto bisogno.
 
-<b>Den Vorhersagen zufolge soll es den ganzen Tag über regnen.</b>
+🇩🇪 <b>Paul:</b> <b>Allem Anschein nach</b> wird es aber ab morgen wieder deutlich sonniger.
+🇮🇹 A quanto pare, però, da domani tornerà a essere decisamente più soleggiato.
 
-🇮🇹 Secondo le previsioni, dovrebbe piovere per tutta la giornata.
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>zufolge</b> + Dativ
-  = secondo, in base a
-
-• <b>sonnig</b>
-  = soleggiato
-
-• <b>die Vorhersage, -n</b>
-  = la previsione
-
-💡 <b>C1-Ausdruck:</b>
-<b>Allem Anschein nach wird es kälter.</b>
-= A quanto pare farà più freddo.
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-In Deutschland gilt das Wetter nach wie vor als beliebtes Small-Talk-Thema, insbesondere unter Kolleginnen und Kollegen,
-wobei man sich gerne über das wechselhafte Wetter oder eine unerwartete Abkühlung austauscht.
-Ein beiläufiger Kommentar über den Regen kann dabei erstaunlich oft ein gutes Gespräch eröffnen.
-
-🇮🇹
-In Germania il tempo è tuttora considerato un argomento di small talk molto amato, soprattutto tra colleghi,
-per cui ci si scambia volentieri commenti sul tempo variabile o su un improvviso calo delle temperature.
-Un commento occasionale sulla pioggia può, sorprendentemente spesso, aprire una buona conversazione.
+🇩🇪 <b>Nina:</b> Das hoffe ich wirklich, ich habe die grauen Tage langsam <b>satt</b>.
+🇮🇹 Lo spero davvero, sono ormai stufa delle giornate grigie.
 
 📚 <b>Neue Wörter</b>
+• <b>zufolge</b> = secondo, in base a
+• <b>allem Anschein nach</b> = a quanto pare
+• <b>etwas satthaben</b> = essere stufo di qualcosa
+• <b>die Vorhersage</b> = la previsione
+• <b>sonnig</b> = soleggiato
 
-• <b>wechselhaft</b>
-  = variabile, incostante
+💡 "zufolge" si mette spesso dopo il sostantivo: "den Vorhersagen zufolge".
+""".strip(),
+        "midday": """
+🇩🇪 In Deutschland <b>gilt</b> das Wetter nach wie vor <b>als</b> beliebtes Small-Talk-Thema, insbesondere unter Kollegen.
+🇮🇹 In Germania il tempo è tuttora considerato un argomento di small talk molto amato, soprattutto tra colleghi.
 
-• <b>beiläufig</b>
-  = di sfuggita, occasionale
+🇩🇪 Man <b>tauscht sich</b> dabei gerne über das wechselhafte Wetter oder eine unerwartete Abkühlung <b>aus</b>.
+🇮🇹 Ci si scambia in questo caso volentieri commenti sul tempo variabile o su un improvviso calo delle temperature.
 
-• <b>sich austauschen</b>
-  = scambiarsi (opinioni)
+🇩🇪 Ein <b>beiläufiger</b> Kommentar über den Regen kann erstaunlich oft ein gutes Gespräch eröffnen.
+🇮🇹 Un commento occasionale sulla pioggia può, sorprendentemente spesso, aprire una buona conversazione.
 
-💡 <b>Struktur</b>
-<b>gelten als</b> = essere considerato come: costruzione molto comune per generalizzazioni C1.
+📚 <b>Neue Wörter</b>
+• <b>gelten als</b> = essere considerato come
+• <b>sich austauschen</b> = scambiarsi (opinioni)
+• <b>beiläufig</b> = di sfuggita
+• <b>wechselhaft</b> = variabile
+• <b>die Abkühlung</b> = il calo delle temperature
+
+💡 "gelten als" è una costruzione molto comune per generalizzazioni ("essere considerato come").
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
-
-<b>Den Vorhersagen zufolge dürfte es sich morgen deutlich erwärmen.</b>
-
+🇩🇪 Den Vorhersagen <b>zufolge</b> dürfte es morgen deutlich wärmer werden.
 🇮🇹 Secondo le previsioni, domani dovrebbe fare notevolmente più caldo.
 
+🇩🇪 Das Wetter <b>gilt</b> in Deutschland <b>als</b> beliebtes Gesprächsthema.
+🇮🇹 In Germania il tempo è considerato un argomento di conversazione molto amato.
+
 🔁 <b>Wiederholung</b>
+• <b>zufolge</b> = secondo
+• <b>gelten als</b> = essere considerato
+• <b>beiläufig</b> = di sfuggita
+• <b>sich austauschen</b> = scambiarsi
+• <b>wechselhaft</b> = variabile
 
-• <b>zufolge</b>
-• <b>beiläufig</b>
-• <b>gelten als</b>
-
-<i>Nota: "zufolge" si può mettere anche dopo il sostantivo: "den Vorhersagen zufolge".</i>
+<i>Prova a fare una frase con "gelten als" su qualcosa considerato in un certo modo.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Max:</b> Ich wollte <b>lediglich in Erfahrung bringen</b>, ob die Unterlagen bereits bei dir <b>eingegangen</b> sind.
+🇮🇹 Volevo solo appurare se i documenti sono già arrivati da te.
 
-<b>Ich wollte lediglich in Erfahrung bringen, ob die Unterlagen bereits eingegangen sind.</b>
+🇩🇪 <b>Anna:</b> Ja, die sind heute Morgen angekommen, ich werde sie mir gleich anschauen.
+🇮🇹 Sì, sono arrivati stamattina, li guardo subito.
 
-🇮🇹 Volevo solo appurare se i documenti sono già arrivati.
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>in Erfahrung bringen</b>
-  = appurare, venire a sapere
-
-• <b>eingehen</b>
-  = arrivare, pervenire (posta/documenti)
-
-• <b>anhängen</b>
-  = allegare
-
-💡 <b>C1-Ausdruck:</b>
-<b>Ich wende mich an Sie im Hinblick auf...</b>
-= Mi rivolgo a lei in relazione a... (apertura molto formale)
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Eine überzeugende Arbeits-E-Mail zeichnet sich in der Regel durch eine aussagekräftige Betreffzeile
-sowie eine höfliche, dem Empfänger angemessene Anrede aus.
-Im Hauptteil gilt es, ohne unnötige Umschweife auf den Punkt zu kommen, ehe man mit einer Grußformel abschließt.
-
-🇮🇹
-Un'e-mail di lavoro convincente si distingue di solito per un oggetto significativo
-e una formula di apertura cortese, adeguata al destinatario.
-Nel corpo del testo bisogna arrivare al punto senza inutili giri di parole, prima di concludere con una formula di saluto.
+🇩🇪 <b>Max:</b> Perfekt, dann melde ich mich, sobald ich eine <b>Rückmeldung</b> von dir habe.
+🇮🇹 Perfetto, allora mi faccio sentire non appena ho un riscontro da te.
 
 📚 <b>Neue Wörter</b>
+• <b>in Erfahrung bringen</b> = appurare
+• <b>eingehen</b> = arrivare (documenti/posta)
+• <b>die Rückmeldung</b> = il riscontro
+• <b>anhängen</b> = allegare
+• <b>sich melden</b> = farsi sentire
 
-• <b>sich auszeichnen durch</b>
-  = distinguersi per
+💡 "in Erfahrung bringen" è un modo elegante per dire "scoprire/appurare qualcosa".
+""".strip(),
+        "midday": """
+🇩🇪 Eine überzeugende Arbeits-E-Mail <b>zeichnet sich</b> meist <b>durch</b> eine aussagekräftige Betreffzeile aus.
+🇮🇹 Un'e-mail di lavoro convincente si distingue di solito per un oggetto significativo.
 
-• <b>aussagekräftig</b>
-  = significativo, incisivo
+🇩🇪 Ebenso wichtig ist eine höfliche, dem Empfänger <b>angemessene</b> Anrede.
+🇮🇹 Altrettanto importante è una formula di apertura cortese, adeguata al destinatario.
 
-• <b>ehe</b>
-  = prima che (sinonimo sostenuto di "bevor")
+🇩🇪 Im Hauptteil gilt es, ohne unnötige <b>Umschweife</b> auf den Punkt zu kommen.
+🇮🇹 Nel corpo del testo bisogna arrivare al punto senza inutili giri di parole.
 
-💡 <b>Struktur</b>
-<b>ehe</b> come alternativa colta a <b>bevor</b>: entrambi introducono un Nebensatz temporale.
+📚 <b>Neue Wörter</b>
+• <b>sich auszeichnen durch</b> = distinguersi per
+• <b>angemessen</b> = adeguato
+• <b>die Umschweife</b> = i giri di parole
+• <b>aussagekräftig</b> = significativo
+• <b>die Anrede</b> = la formula di apertura
+
+💡 "sich auszeichnen durch + Akkusativ" descrive una caratteristica distintiva positiva.
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
-
-<b>Ich wollte höflich nachfragen, ob Sie die Unterlagen zwischenzeitlich erhalten haben.</b>
-
+🇩🇪 Ich wollte höflich nachfragen, ob Sie die Unterlagen zwischenzeitlich erhalten haben.
 🇮🇹 Volevo chiedere cortesemente se nel frattempo avete ricevuto i documenti.
 
+🇩🇪 Eine gute E-Mail <b>zeichnet sich durch</b> eine klare Betreffzeile aus.
+🇮🇹 Una buona e-mail si distingue per un oggetto chiaro.
+
 🔁 <b>Wiederholung</b>
+• <b>in Erfahrung bringen</b> = appurare
+• <b>sich auszeichnen durch</b> = distinguersi per
+• <b>angemessen</b> = adeguato
+• <b>die Rückmeldung</b> = il riscontro
+• <b>die Umschweife</b> = i giri di parole
 
-• <b>in Erfahrung bringen</b>
-• <b>aussagekräftig</b>
-• <b>ehe</b>
-
-<i>"zwischenzeitlich" è un modo elegante per dire "nel frattempo" in contesti formali.</i>
+<i>Prova a fare una frase con "sich auszeichnen durch" su una qualità che apprezzi.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Julia:</b> Wäre es möglich, den Termin auf kommende Woche zu <b>verlegen</b>? Ich bin gerade etwas überlastet.
+🇮🇹 Sarebbe possibile spostare l'appuntamento alla settimana prossima? Sono un po' sovraccarica in questo momento.
 
-<b>Wäre es möglich, den Termin auf kommende Woche zu verlegen?</b>
+🇩🇪 <b>Tobias:</b> Kein Problem, ich <b>schlage vor</b>, dass wir stattdessen Donnerstag <b>ansetzen</b>.
+🇮🇹 Nessun problema, propongo di fissarlo giovedì invece.
 
-🇮🇹 Sarebbe possibile spostare l'appuntamento alla settimana prossima?
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>verlegen</b>
-  = spostare, rimandare
-
-• <b>die Tagesordnung, -en</b>
-  = l'ordine del giorno
-
-• <b>der Terminplan, -¨e</b>
-  = il calendario/agenda
-
-💡 <b>C1-Ausdruck:</b>
-<b>Ich schlage vor, dass wir das Vorgehen noch einmal überdenken.</b>
-= Propongo di riconsiderare l'approccio.
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-In Besprechungen ist es üblich, sich an eine im Vorfeld erstellte Tagesordnung zu halten,
-wobei Abweichungen davon in der Regel nur nach Absprache mit allen Beteiligten erfolgen sollten.
-Im Anschluss an das Meeting wird häufig ein knappes Protokoll mit den wesentlichen Beschlüssen verschickt.
-
-🇮🇹
-Nelle riunioni è comune attenersi a un ordine del giorno predisposto in anticipo,
-per cui eventuali deviazioni dovrebbero avvenire di norma solo previo accordo con tutti i partecipanti.
-Al termine della riunione viene spesso inviato un breve verbale con le decisioni essenziali.
+🇩🇪 <b>Julia:</b> Das passt mir sehr gut, danke für dein Verständnis.
+🇮🇹 Mi va benissimo, grazie per la comprensione.
 
 📚 <b>Neue Wörter</b>
+• <b>verlegen</b> = spostare, rimandare
+• <b>vorschlagen</b> = proporre
+• <b>ansetzen (einen Termin)</b> = fissare (una data)
+• <b>überlastet</b> = sovraccarico
+• <b>das Verständnis</b> = la comprensione
 
-• <b>im Vorfeld</b>
-  = in anticipo, preliminarmente
+💡 "vorschlagen, dass..." + Nebensatz è la struttura standard per fare proposte formali.
+""".strip(),
+        "midday": """
+🇩🇪 In Besprechungen ist es üblich, sich an eine <b>im Vorfeld</b> erstellte Tagesordnung zu halten.
+🇮🇹 Nelle riunioni è comune attenersi a un ordine del giorno predisposto in anticipo.
 
-• <b>die Abweichung, -en</b>
-  = la deviazione/scostamento
+🇩🇪 <b>Abweichungen</b> davon sollten in der Regel nur nach Absprache mit allen Beteiligten erfolgen.
+🇮🇹 Eventuali deviazioni dovrebbero avvenire di norma solo previo accordo con tutti i partecipanti.
 
-• <b>der Beschluss, -¨e</b>
-  = la decisione/delibera
+🇩🇪 Im Anschluss an das Meeting wird häufig ein knappes Protokoll mit den wesentlichen <b>Beschlüssen</b> verschickt.
+🇮🇹 Al termine della riunione viene spesso inviato un breve verbale con le decisioni essenziali.
 
-💡 <b>Struktur</b>
-<b>nach Absprache mit</b> = previo accordo con: espressione tipica del linguaggio aziendale C1.
+📚 <b>Neue Wörter</b>
+• <b>im Vorfeld</b> = in anticipo
+• <b>die Abweichung</b> = la deviazione
+• <b>der Beschluss</b> = la decisione
+• <b>sich halten an</b> = attenersi a
+• <b>die Absprache</b> = l'accordo
+
+💡 "im Vorfeld von + Genitiv" è un'espressione molto frequente nel linguaggio professionale.
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
-
-<b>Ich schlage vor, dass wir das Thema im Vorfeld der Besprechung klären.</b>
-
+🇩🇪 Ich schlage vor, dass wir das Thema <b>im Vorfeld</b> der Besprechung klären.
 🇮🇹 Propongo di chiarire l'argomento prima della riunione.
 
+🇩🇪 <b>Abweichungen</b> von der Tagesordnung erfolgen nur nach Absprache.
+🇮🇹 Le deviazioni dall'ordine del giorno avvengono solo previo accordo.
+
 🔁 <b>Wiederholung</b>
+• <b>verlegen</b> = spostare
+• <b>im Vorfeld</b> = in anticipo
+• <b>die Abweichung</b> = la deviazione
+• <b>der Beschluss</b> = la decisione
+• <b>die Absprache</b> = l'accordo
 
-• <b>verlegen</b>
-• <b>im Vorfeld</b>
-• <b>der Beschluss</b>
-
-<i>"im Vorfeld von/Genitiv" è un'espressione molto frequente nel linguaggio professionale.</i>
+<i>Prova a fare una frase con "im Vorfeld von" su qualcosa organizzato in anticipo.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
-
-<b>Ich habe das vergangene Wochenende größtenteils in Gesellschaft von Freunden verbracht.</b>
-
+🇩🇪 <b>Lisa:</b> Ich habe das vergangene Wochenende <b>größtenteils in Gesellschaft von</b> Freunden verbracht.
 🇮🇹 Ho trascorso il weekend scorso per lo più in compagnia di amici.
 
-📚 <b>Heute lernen wir:</b>
+🇩🇪 <b>Jonas:</b> Klingt schön, wart ihr auch draußen unterwegs, oder eher zu Hause?
+🇮🇹 Sembra bello, siete stati anche fuori, o piuttosto a casa?
 
-• <b>größtenteils</b>
-  = per lo più, in gran parte
-
-• <b>in Gesellschaft von</b>
-  = in compagnia di
-
-• <b>unternehmen</b>
-  = fare, intraprendere (un'attività)
-
-💡 <b>C1-Ausdruck:</b>
-<b>Alles in allem war es ein gelungenes Wochenende.</b>
-= Tutto sommato è stato un weekend riuscito.
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Montags erzählen sich Kolleginnen und Kollegen häufig, wie sie das Wochenende verbracht haben,
-wobei manche von ausgedehnten Wanderungen berichten, während andere sich lieber zu Hause erholt haben.
-Solche Erzählungen bieten eine willkommene Gelegenheit, das Perfekt im Alltag zu festigen.
-
-🇮🇹
-Il lunedì, i colleghi si raccontano spesso come hanno trascorso il weekend,
-per cui alcuni parlano di lunghe escursioni, mentre altri hanno preferito riposarsi a casa.
-Questi racconti offrono una gradita occasione per consolidare l'uso del Perfekt nella quotidianità.
+🇩🇪 <b>Lisa:</b> Beides eigentlich, wir sind erst wandern gewesen und haben uns danach zu Hause <b>entspannt</b>.
+🇮🇹 In realtà entrambe le cose, prima siamo andati a fare un'escursione e poi ci siamo rilassati a casa.
 
 📚 <b>Neue Wörter</b>
+• <b>größtenteils</b> = per lo più
+• <b>in Gesellschaft von</b> = in compagnia di
+• <b>sich entspannen</b> = rilassarsi
+• <b>unterwegs sein</b> = essere in giro
+• <b>verbringen</b> = trascorrere
 
-• <b>ausgedehnt</b>
-  = esteso, lungo (di un'escursione)
+💡 "in Gesellschaft von + Dativ" è un modo elegante per dire "in compagnia di".
+""".strip(),
+        "midday": """
+🇩🇪 Montags erzählen sich Kolleginnen und Kollegen häufig, wie sie das Wochenende verbracht haben.
+🇮🇹 Il lunedì, i colleghi si raccontano spesso come hanno trascorso il weekend.
 
-• <b>sich erholen</b>
-  = riposarsi/rigenerarsi
+🇩🇪 Manche berichten von <b>ausgedehnten</b> Wanderungen, während andere sich lieber zu Hause <b>erholt</b> haben.
+🇮🇹 Alcuni parlano di lunghe escursioni, mentre altri hanno preferito riposarsi a casa.
 
-• <b>festigen</b>
-  = consolidare
+🇩🇪 Solche Erzählungen bieten eine willkommene Gelegenheit, das Perfekt im Alltag zu <b>festigen</b>.
+🇮🇹 Questi racconti offrono una gradita occasione per consolidare l'uso del Perfekt nella quotidianità.
 
-💡 <b>Struktur</b>
-<b>während</b> come Nebensatz avversativo ("mentre invece"), non solo temporale.
+📚 <b>Neue Wörter</b>
+• <b>ausgedehnt</b> = esteso, lungo
+• <b>sich erholen</b> = riposarsi
+• <b>festigen</b> = consolidare
+• <b>berichten von</b> = raccontare di
+• <b>die Gelegenheit</b> = l'occasione
+
+💡 "während" può introdurre sia un Nebensatz temporale che uno di contrasto ("mentre invece").
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
-
-<b>Wir sind spazieren gegangen und haben uns anschließend dem Kochen gewidmet.</b>
-
+🇩🇪 Wir sind spazieren gegangen und haben uns anschließend dem Kochen gewidmet.
 🇮🇹 Siamo andati a passeggiare e poi ci siamo dedicati a cucinare.
 
+🇩🇪 Manche berichten lieber von <b>ausgedehnten</b> Wanderungen.
+🇮🇹 Alcuni preferiscono raccontare di lunghe escursioni.
+
 🔁 <b>Wiederholung</b>
+• <b>größtenteils</b> = per lo più
+• <b>sich erholen</b> = riposarsi
+• <b>ausgedehnt</b> = esteso
+• <b>festigen</b> = consolidare
+• <b>in Gesellschaft von</b> = in compagnia di
 
-• <b>größtenteils</b>
-• <b>sich erholen</b>
-• <b>sich widmen + Dativ</b>
-
-<i>"sich widmen + Dativ" è un modo elegante per dire "dedicarsi a".</i>
+<i>Prova a raccontare il tuo weekend con "größtenteils" e il Perfekt.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Sophie:</b> Woher kennst du die <b>Gastgeberin</b> eigentlich, wenn ich fragen darf?
+🇮🇹 Da dove conosci in realtà la padrona di casa, se posso chiedere?
 
-<b>Woher kennst du die Gastgeberin eigentlich, wenn ich fragen darf?</b>
+🇩🇪 <b>Max:</b> Wir haben uns vor ein paar Jahren über gemeinsame Freunde <b>kennengelernt</b>.
+🇮🇹 Ci siamo conosciuti qualche anno fa tramite amici comuni.
 
-🇮🇹 Da dove conosci la padrona di casa, se posso chiedere?
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>die Gastgeberin / der Gastgeber</b>
-  = chi ospita
-
-• <b>sich kennenlernen</b>
-  = conoscersi
-
-• <b>wenn ich fragen darf</b>
-  = se posso chiedere (formula cortese)
-
-💡 <b>C1-Ausdruck:</b>
-<b>Es freut mich außerordentlich, Sie kennenzulernen.</b>
-= Sono estremamente lieta di conoscerla.
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Auf gesellschaftlichen Veranstaltungen ist es üblich, sich zunächst kurz vorzustellen, ehe man ins Gespräch vertieft.
-Beliebte Gesprächsthemen sind dabei der berufliche Werdegang, gemeinsame Bekanntschaften oder die Beziehung zur Gastgeberin.
-Ein beiläufiges Kompliment über die Feier kann das Eis dabei erstaunlich schnell brechen.
-
-🇮🇹
-Agli eventi sociali è consuetudine presentarsi brevemente prima di addentrarsi nella conversazione.
-Argomenti di conversazione popolari sono il percorso professionale, conoscenze comuni o il rapporto con chi ospita.
-Un complimento occasionale sulla festa può rompere il ghiaccio sorprendentemente in fretta.
+🇩🇪 <b>Sophie:</b> Ach interessant, es freut mich <b>außerordentlich</b>, dich nun auch kennenzulernen.
+🇮🇹 Ah interessante, sono estremamente contenta di conoscere anche te ora.
 
 📚 <b>Neue Wörter</b>
+• <b>die Gastgeberin</b> = chi ospita
+• <b>sich kennenlernen</b> = conoscersi
+• <b>außerordentlich</b> = estremamente
+• <b>wenn ich fragen darf</b> = se posso chiedere
+• <b>gemeinsam</b> = in comune
 
-• <b>der Werdegang, -¨e</b>
-  = il percorso (professionale/formativo)
+💡 "außerordentlich" alza notevolmente il registro rispetto a "sehr".
+""".strip(),
+        "midday": """
+🇩🇪 Auf gesellschaftlichen Veranstaltungen ist es üblich, sich zunächst kurz vorzustellen.
+🇮🇹 Agli eventi sociali è consuetudine presentarsi brevemente all'inizio.
 
-• <b>die Bekanntschaft, -en</b>
-  = la conoscenza (persona)
+🇩🇪 Beliebte Gesprächsthemen sind dabei der berufliche <b>Werdegang</b> oder gemeinsame <b>Bekanntschaften</b>.
+🇮🇹 Argomenti di conversazione popolari sono in questo caso il percorso professionale o conoscenze comuni.
 
-• <b>vertiefen</b>
-  = approfondire
+🇩🇪 Ein beiläufiges Kompliment über die Feier kann <b>das Eis</b> dabei erstaunlich schnell <b>brechen</b>.
+🇮🇹 Un complimento occasionale sulla festa può rompere il ghiaccio sorprendentemente in fretta.
 
-💡 <b>Struktur</b>
-<b>ehe man ... vertieft</b>: Nebensatz temporale con "ehe", sinonimo colto di "bevor".
+📚 <b>Neue Wörter</b>
+• <b>der Werdegang</b> = il percorso professionale
+• <b>die Bekanntschaft</b> = la conoscenza
+• <b>das Eis brechen</b> = rompere il ghiaccio
+• <b>die Veranstaltung</b> = l'evento
+• <b>beiläufig</b> = occasionale, di sfuggita
+
+💡 "das Eis brechen" è un'espressione idiomatica identica in italiano e tedesco.
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
-
-<b>Es hat mich außerordentlich gefreut, dich endlich persönlich kennenzulernen.</b>
-
+🇩🇪 Es hat mich <b>außerordentlich</b> gefreut, dich endlich persönlich kennenzulernen.
 🇮🇹 Sono stata estremamente contenta di conoscerti finalmente di persona.
 
+🇩🇪 Ein beiläufiges Kompliment kann <b>das Eis</b> schnell <b>brechen</b>.
+🇮🇹 Un complimento occasionale può rompere il ghiaccio in fretta.
+
 🔁 <b>Wiederholung</b>
+• <b>außerordentlich</b> = estremamente
+• <b>der Werdegang</b> = il percorso
+• <b>die Bekanntschaft</b> = la conoscenza
+• <b>das Eis brechen</b> = rompere il ghiaccio
+• <b>die Veranstaltung</b> = l'evento
 
-• <b>der Werdegang</b>
-• <b>vertiefen</b>
-• <b>außerordentlich</b>
-
-<i>"außerordentlich" alza notevolmente il registro rispetto a "sehr".</i>
+<i>Prova a presentarti in tedesco menzionando il tuo "Werdegang".</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Dialog des Tages</b>
+🇩🇪 <b>Lisa:</b> Hättest du eigentlich Lust, heute Abend mit mir ins Kino zu gehen, <b>obwohl</b> der Film <b>angeblich</b> ziemlich lang ist?
+🇮🇹 Avresti in realtà voglia di venire con me al cinema stasera, anche se pare che il film sia piuttosto lungo?
 
-<b>Lisa:</b> Hättest du eigentlich Lust, heute Abend mit mir ins Kino zu gehen? Ich habe gehört, dass der neue Film ausgesprochen gut ankommt.
+🇩🇪 <b>Jonas:</b> Klingt verlockend, allerdings bin ich mir nicht sicher, ob die Kritiken das <b>rechtfertigen</b>.
+🇮🇹 Sembra allettante, tuttavia non sono sicuro che le recensioni lo giustifichino.
 
-<b>Jonas:</b> Das klingt verlockend, allerdings bin ich mir nicht sicher, ob ich es zeitlich schaffen werde. Um wie viel Uhr würde die Vorstellung denn beginnen?
-
-<b>Lisa:</b> Soweit ich weiß, gibt es eine Vorstellung um Viertel nach acht. Das müsste eigentlich machbar sein, selbst wenn du erst gegen sieben von der Arbeit loskommst.
-
-<b>Jonas:</b> Na gut, dann lass uns das riskieren. Sollen wir uns direkt vor dem Kino treffen, oder würdest du lieber vorher noch etwas essen gehen?
-
-<b>Lisa:</b> Mir wäre es am liebsten, wenn wir uns eine halbe Stunde vorher träfen, dann bleibt uns noch genug Zeit, um in Ruhe die Karten zu holen.
-
-🇮🇹
-<b>Lisa:</b> Avresti in realtà voglia di venire con me al cinema stasera? Ho sentito che il nuovo film sta avendo un riscontro decisamente positivo.
-<b>Jonas:</b> Sembra allettante, tuttavia non sono sicuro di riuscire a farcela con i tempi. A che ora inizierebbe lo spettacolo?
-<b>Lisa:</b> Per quanto ne so, c'è uno spettacolo alle otto e un quarto. Dovrebbe essere fattibile, anche se tu riuscissi a uscire dal lavoro solo verso le sette.
-<b>Jonas:</b> Va bene, allora rischiamo. Ci vediamo direttamente davanti al cinema, o preferiresti prima andare a mangiare qualcosa?
-<b>Lisa:</b> Preferirei di gran lunga se ci vedessimo mezz'ora prima, così ci resterebbe abbastanza tempo per prendere i biglietti con calma.
+🇩🇪 <b>Lisa:</b> Wir könnten es ja <b>trotzdem</b> riskieren und uns selbst <b>ein Bild machen</b>.
+🇮🇹 Potremmo comunque rischiare e farci un'idea da soli.
 
 📚 <b>Neue Wörter</b>
+• <b>obwohl</b> = sebbene
+• <b>angeblich</b> = a quanto pare
+• <b>rechtfertigen</b> = giustificare
+• <b>sich ein Bild machen</b> = farsi un'idea
+• <b>trotzdem</b> = comunque, nonostante ciò
 
-• <b>verlockend</b> = allettante
-• <b>ankommen (bei jmdm.)</b> = avere riscontro, piacere
-• <b>machbar</b> = fattibile
-• <b>von der Arbeit loskommen</b> = riuscire a liberarsi dal lavoro
-• <b>riskieren</b> = rischiare
-• <b>jmdm. wäre es am liebsten, wenn...</b> = preferire di gran lunga che...
-• <b>in Ruhe</b> = con calma
-• <b>soweit ich weiß</b> = per quanto ne so
-
-💡 <b>C1-Ausdruck:</b>
-<b>Mir wäre es am liebsten, wenn...</b> + Nebensatz (Konjunktiv II)
-= costruzione elegante per esprimere una preferenza forte.
+💡 "obwohl" manda il verbo in fondo; "sich ein Bild machen von etwas" è un'espressione idiomatica molto usata.
 """.strip(),
         "midday": """
-🇩🇪 <b>Mittagsgeschichte</b>
+🇩🇪 Seitdem die Kinos wieder regulär geöffnet haben, hat sich das <b>Freizeitverhalten</b> vieler Menschen <b>merklich</b> verändert.
+🇮🇹 Da quando i cinema hanno riaperto regolarmente, il comportamento nel tempo libero di molte persone è cambiato notevolmente.
 
-Seitdem die Kinos nach den pandemiebedingten Einschränkungen wieder regulär geöffnet haben, hat sich das Freizeitverhalten vieler Menschen merklich verändert. Während einige nach wie vor lieber zu Hause auf dem Sofa Filme streamen, schätzen andere gerade das gemeinschaftliche Erlebnis, das ein Kinobesuch mit sich bringt – die große Leinwand, der Popcornduft und die gespannte Stille kurz vor Beginn des Films. Bemerkenswert ist zudem, dass viele Kinos inzwischen versuchen, mit besonderen Angeboten zu punkten, etwa mit vergünstigten Tickets an bestimmten Wochentagen oder mit sogenannten Originalversionen, bei denen Filme in ihrer ursprünglichen Sprache mit Untertiteln gezeigt werden. Gerade Letzteres erfreut sich bei Sprachlernenden zunehmender Beliebtheit, da es eine unterhaltsame Möglichkeit bietet, das eigene Hörverständnis nebenbei zu trainieren.
+🇩🇪 Während manche nach wie vor das bequeme Streaming zu Hause <b>bevorzugen</b>, schätzen andere gerade das gemeinschaftliche Erlebnis, das ein Kinobesuch mit sich bringt.
+🇮🇹 Mentre alcuni continuano a preferire il comodo streaming a casa, altri apprezzano proprio l'esperienza collettiva che una visita al cinema comporta.
 
-🇮🇹
-Da quando i cinema hanno riaperto regolarmente dopo le restrizioni legate alla pandemia, il comportamento nel tempo libero di molte persone è cambiato in modo evidente. Mentre alcuni preferiscono tuttora guardare film in streaming comodamente a casa, altri apprezzano proprio l'esperienza collettiva che una visita al cinema comporta – il grande schermo, il profumo di popcorn e il silenzio carico di attesa poco prima dell'inizio del film. È inoltre degno di nota che molti cinema cerchino ormai di distinguersi con offerte particolari, come biglietti scontati in determinati giorni della settimana o le cosiddette versioni originali, in cui i film vengono proiettati nella loro lingua originale con sottotitoli. Proprio quest'ultima opzione sta riscuotendo un successo crescente tra chi impara le lingue, poiché offre un modo divertente per allenare la propria comprensione orale.
+🇩🇪 <b>Bemerkenswert</b> ist zudem, dass viele Kinos mittlerweile auf Originalversionen mit Untertiteln setzen, um ein neues Publikum <b>anzusprechen</b>.
+🇮🇹 È inoltre degno di nota che molti cinema puntino ormai su versioni originali con sottotitoli, per fare presa su un nuovo pubblico.
 
 📚 <b>Neue Wörter</b>
-
-• <b>pandemiebedingt</b> = dovuto alla pandemia
 • <b>das Freizeitverhalten</b> = il comportamento nel tempo libero
-• <b>mit etwas punkten</b> = distinguersi/guadagnare punti con qualcosa
-• <b>sich einer Beliebtheit erfreuen</b> = godere di popolarità
-• <b>das Hörverständnis</b> = la comprensione orale
+• <b>merklich</b> = notevolmente
+• <b>bevorzugen</b> = preferire
 • <b>bemerkenswert</b> = degno di nota
-• <b>nebenbei</b> = di riflesso, senza sforzo aggiuntivo
+• <b>ansprechen (ein Publikum)</b> = rivolgersi a, fare presa su (un pubblico) — lett. "parlare verso" (an- + sprechen)
 
-💡 <b>Struktur</b>
-<b>seitdem</b> + Perfekt/Präsens introduce uno spartiacque temporale ("da quando..."), spesso seguito da un contrasto con <b>während</b>.
+💡 "seitdem" = da quando (Perfekt/Präsens); "während" introduce un contrasto.
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso esteso di oggi — due frasi chiave:
+🇩🇪 Andere schätzen das gemeinschaftliche Erlebnis, das ein Kinobesuch <b>mit sich bringt</b>.
+🇮🇹 Altri apprezzano l'esperienza collettiva che una visita al cinema comporta.
 
-<b>Mir wäre es am liebsten, wenn wir uns eine halbe Stunde vorher träfen.</b>
-🇮🇹 Preferirei di gran lunga se ci vedessimo mezz'ora prima.
-
-<b>Diese Originalversionen erfreuen sich bei Sprachlernenden zunehmender Beliebtheit.</b>
-🇮🇹 Queste versioni originali godono di una popolarità crescente tra chi impara le lingue.
+🇩🇪 Viele Kinos setzen mittlerweile auf Originalversionen, um ein neues Publikum <b>anzusprechen</b>.
+🇮🇹 Molti cinema puntano ormai su versioni originali per fare presa su un nuovo pubblico.
 
 🔁 <b>Wiederholung</b>
+• <b>obwohl</b> = sebbene
+• <b>angeblich</b> = a quanto pare
+• <b>rechtfertigen</b> = giustificare
+• <b>sich ein Bild machen</b> = farsi un'idea
+• <b>bemerkenswert</b> = degno di nota
+• <b>ansprechen</b> = rivolgersi a, fare presa su — lett. "parlare verso"
 
-• <b>verlockend</b>
-• <b>machbar</b>
-• <b>riskieren</b>
-• <b>bemerkenswert</b>
-• <b>sich einer Beliebtheit erfreuen</b>
-• <b>nebenbei</b>
-• <b>jmdm. wäre es am liebsten, wenn...</b>
-
-<i>Prova oggi a costruire una frase con "sich einer Beliebtheit erfreuen" su qualcosa che ti piace.</i>
+<i>Prova a fare una frase con "sich ein Bild machen von etwas".</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Anna:</b> Dürfte ich Sie bitten, etwas leiser zu sein? Es ist bereits recht spät.
+🇮🇹 Potrei chiederle di fare un po' più piano? È già piuttosto tardi.
 
-<b>Dürfte ich Sie bitten, etwas leiser zu sein, zumal es bereits recht spät ist?</b>
+🇩🇪 <b>Nachbar:</b> Entschuldigung, das war uns gar nicht <b>bewusst</b>, wir werden uns gleich <b>zurückhalten</b>.
+🇮🇹 Ci scusi, non ce ne eravamo affatto resi conto, ci modereremo subito.
 
-🇮🇹 Potrei chiederle di fare un po' più piano, dato che è già piuttosto tardi?
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>zumal</b>
-  = tanto più che, dato che
-
-• <b>der Lärm</b>
-  = il rumore
-
-• <b>stören</b>
-  = disturbare
-
-💡 <b>C1-Ausdruck:</b>
-<b>Es wäre mir sehr recht, wenn...</b>
-= Mi farebbe molto piacere se... (richiesta indiretta, molto cortese)
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-In deutschen Mietshäusern gelten vielerorts feste Ruhezeiten, etwa in den Mittagsstunden sowie ab zweiundzwanzig Uhr,
-wobei es sich empfiehlt, bei Störungen zunächst das freundliche Gespräch mit den Nachbarn zu suchen.
-Erst wenn dies keine Wirkung zeigt, sollte man sich an die Hausverwaltung oder den Vermieter wenden.
-
-🇮🇹
-Nei condomini tedeschi vigono in molti luoghi orari di silenzio fissi, ad esempio nelle ore di pranzo e dopo le 22,
-per cui in caso di disturbi si consiglia di cercare prima un confronto amichevole con i vicini.
-Solo se ciò non sortisce alcun effetto, ci si dovrebbe rivolgere all'amministrazione o al padrone di casa.
+🇩🇪 <b>Anna:</b> Das weiß ich sehr <b>zu schätzen</b>, vielen Dank für Ihr Verständnis.
+🇮🇹 Lo apprezzo molto, grazie mille per la comprensione.
 
 📚 <b>Neue Wörter</b>
+• <b>sich etwas bewusst sein</b> = rendersi conto di qualcosa
+• <b>sich zurückhalten</b> = trattenersi, moderarsi
+• <b>etwas zu schätzen wissen</b> = apprezzare qualcosa
+• <b>leise</b> = silenzioso
+• <b>das Verständnis</b> = la comprensione
 
-• <b>vielerorts</b>
-  = in molti luoghi
+💡 "etwas zu schätzen wissen" è un modo elegante per dire "apprezzare qualcosa".
+""".strip(),
+        "midday": """
+🇩🇪 In deutschen Mietshäusern gelten <b>vielerorts</b> feste Ruhezeiten, etwa ab zweiundzwanzig Uhr.
+🇮🇹 Nei condomini tedeschi vigono in molti luoghi orari di silenzio fissi, ad esempio dopo le 22.
 
-• <b>Wirkung zeigen</b>
-  = avere effetto
+🇩🇪 Bei Störungen empfiehlt es sich, zunächst das freundliche Gespräch mit den Nachbarn zu suchen.
+🇮🇹 In caso di disturbi si consiglia di cercare prima un confronto amichevole con i vicini.
 
-• <b>sich wenden an</b>
-  = rivolgersi a
+🇩🇪 Erst wenn dies keine <b>Wirkung zeigt</b>, sollte man <b>sich an</b> die Hausverwaltung <b>wenden</b>.
+🇮🇹 Solo se ciò non sortisce alcun effetto, ci si dovrebbe rivolgere all'amministrazione.
 
-💡 <b>Struktur</b>
-<b>erst wenn</b> = solo quando: struttura enfatica per condizioni temporali, registro C1.
+📚 <b>Neue Wörter</b>
+• <b>vielerorts</b> = in molti luoghi
+• <b>Wirkung zeigen</b> = avere effetto
+• <b>sich wenden an</b> = rivolgersi a
+• <b>die Ruhezeit</b> = l'orario di silenzio
+• <b>die Störung</b> = il disturbo
+
+💡 "erst wenn" = "solo quando": struttura enfatica per condizioni temporali.
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
-
-<b>Es wäre mir sehr recht, wenn Sie nach zweiundzwanzig Uhr etwas Rücksicht nehmen könnten.</b>
-
+🇩🇪 Es wäre mir sehr recht, wenn Sie nach zweiundzwanzig Uhr etwas Rücksicht nehmen könnten.
 🇮🇹 Mi farebbe molto piacere se poteste avere un po' più di riguardo dopo le 22.
 
-🔁 <b>Wiederholung</b>
+🇩🇪 Erst wenn ein Gespräch keine <b>Wirkung zeigt</b>, <b>wendet</b> man <b>sich an</b> die Verwaltung.
+🇮🇹 Solo se un confronto non ha effetto, ci si rivolge all'amministrazione.
 
-• <b>vielerorts</b>
-• <b>sich wenden an</b>
-• <b>erst wenn</b>
+🔁 <b>Wiederholung</b>
+• <b>vielerorts</b> = in molti luoghi
+• <b>sich wenden an</b> = rivolgersi a
+• <b>Wirkung zeigen</b> = avere effetto
+• <b>sich zurückhalten</b> = trattenersi
+• <b>die Ruhezeit</b> = l'orario di silenzio
 
 <i>Nota: "Rücksicht nehmen auf + Akkusativ" è un'espressione fissa molto usata.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>David:</b> Das Fahrzeug gibt seit gestern merkwürdige Geräusche <b>von sich</b>, das macht mir langsam Sorgen.
+🇮🇹 Il veicolo emette rumori strani da ieri, sto iniziando a preoccuparmi.
 
-<b>Das Fahrzeug gibt seit gestern merkwürdige Geräusche von sich.</b>
+🇩🇪 <b>Julia:</b> Das würde ich definitiv <b>abklären lassen</b>, bevor sich das Problem <b>verschlimmert</b>.
+🇮🇹 Lo farei sicuramente chiarire, prima che il problema peggiori.
 
-🇮🇹 Il veicolo emette rumori strani da ieri.
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>von sich geben</b>
-  = emettere (un suono)
-
-• <b>die Werkstatt, -¨en</b>
-  = l'officina
-
-• <b>überprüfen</b>
-  = verificare, controllare
-
-💡 <b>C1-Ausdruck:</b>
-<b>Es wäre ratsam, das umgehend abklären zu lassen.</b>
-= Sarebbe consigliabile farlo chiarire immediatamente.
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Sobald ein Fahrzeug ungewöhnliche Geräusche von sich gibt, sollte möglichst zeitnah ein Werkstatttermin vereinbart werden.
-Bei der telefonischen Anmeldung empfiehlt es sich, präzise zu schildern, unter welchen Umständen das Geräusch auftritt.
-Nach erfolgter Untersuchung teilt die Werkstatt in der Regel mit, ob die Reparatur kostenpflichtig ausfällt.
-
-🇮🇹
-Non appena un veicolo emette rumori insoliti, bisognerebbe fissare al più presto un appuntamento in officina.
-Al momento della prenotazione telefonica è consigliabile descrivere con precisione in quali circostanze si presenta il rumore.
-Dopo l'esame effettuato, l'officina comunica generalmente se la riparazione risulterà a pagamento.
+🇩🇪 <b>David:</b> Da hast du recht, ich vereinbare gleich morgen einen Werkstatttermin.
+🇮🇹 Hai ragione, fisso subito un appuntamento in officina per domani.
 
 📚 <b>Neue Wörter</b>
+• <b>von sich geben</b> = emettere (un suono)
+• <b>abklären lassen</b> = far chiarire
+• <b>sich verschlimmern</b> = peggiorare
+• <b>das Geräusch</b> = il rumore
+• <b>die Werkstatt</b> = l'officina
 
-• <b>unter welchen Umständen</b>
-  = in quali circostanze
+💡 "abklären lassen" combina "lassen" (causativo) con "abklären" (chiarire una questione tecnica).
+""".strip(),
+        "midday": """
+🇩🇪 Sobald ein Fahrzeug ungewöhnliche Geräusche von sich gibt, sollte <b>zeitnah</b> ein Werkstatttermin vereinbart werden.
+🇮🇹 Non appena un veicolo emette rumori insoliti, bisognerebbe fissare al più presto un appuntamento in officina.
 
-• <b>ausfallen</b>
-  = risultare (in un certo modo)
+🇩🇪 Bei der Anmeldung empfiehlt es sich, präzise zu schildern, unter welchen <b>Umständen</b> das Geräusch auftritt.
+🇮🇹 Al momento della prenotazione è consigliabile descrivere con precisione in quali circostanze si presenta il rumore.
 
-• <b>ratsam</b>
-  = consigliabile
+🇩🇪 Nach erfolgter Untersuchung teilt die Werkstatt meist mit, ob die Reparatur kostenpflichtig <b>ausfällt</b>.
+🇮🇹 Dopo l'esame effettuato, l'officina comunica di solito se la riparazione risulterà a pagamento.
 
-💡 <b>Struktur</b>
-<b>Partizip-Konstruktion:</b> nach erfolgter Untersuchung = dopo che l'esame è avvenuto (registro burocratico C1).
+📚 <b>Neue Wörter</b>
+• <b>zeitnah</b> = tempestivamente
+• <b>unter welchen Umständen</b> = in quali circostanze
+• <b>ausfallen</b> = risultare (in un certo modo)
+• <b>die Untersuchung</b> = l'esame
+• <b>kostenpflichtig</b> = a pagamento
+
+💡 "ausfallen" descrive spesso come risulta qualcosa: "gut/schlecht ausfallen".
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
-
-<b>Das Fahrzeug wurde gestern eingehend in der Werkstatt überprüft.</b>
-
+🇩🇪 Das Fahrzeug wurde gestern <b>eingehend</b> in der Werkstatt überprüft.
 🇮🇹 Il veicolo è stato controllato accuratamente ieri in officina.
 
-🔁 <b>Wiederholung</b>
+🇩🇪 Es wäre ratsam gewesen, das Geräusch früher <b>abklären zu lassen</b>.
+🇮🇹 Sarebbe stato consigliabile far chiarire prima il rumore.
 
-• <b>von sich geben</b>
-• <b>ratsam</b>
-• <b>eingehend</b> (accuratamente/approfonditamente)
+🔁 <b>Wiederholung</b>
+• <b>von sich geben</b> = emettere
+• <b>zeitnah</b> = tempestivamente
+• <b>ausfallen</b> = risultare
+• <b>abklären lassen</b> = far chiarire
+• <b>unter welchen Umständen</b> = in quali circostanze
 
 <i>"eingehend" è un avverbio elegante per dire "in modo approfondito".</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Nina:</b> Ich <b>beabsichtige</b>, in nächster Zeit ein Konto zu eröffnen, weißt du zufällig, was ich dafür brauche?
+🇮🇹 Ho intenzione di aprire un conto a breve, sai per caso cosa mi serve?
 
-<b>Ich beabsichtige, in nächster Zeit ein Konto zu eröffnen.</b>
+🇩🇪 <b>Paul:</b> Ich glaube, es <b>genügt</b> ein gültiger Ausweis zusammen mit deiner aktuellen Meldeadresse.
+🇮🇹 Credo sia sufficiente un documento valido insieme al tuo indirizzo di residenza attuale.
 
-🇮🇹 Ho intenzione di aprire un conto a breve.
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>beabsichtigen</b>
-  = avere l'intenzione di
-
-• <b>eröffnen</b>
-  = aprire
-
-• <b>die Unterlagen</b> (Pl.)
-  = i documenti
-
-💡 <b>C1-Ausdruck:</b>
-<b>Welche Unterlagen sind hierfür vonnöten?</b>
-= Quali documenti sono necessari per questo? (registro elevato di "nötig")
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Um ein Konto zu eröffnen, genügt in der Regel ein gültiger Ausweis in Verbindung mit einer aktuellen Meldeadresse.
-Bei zahlreichen Banken lässt sich der gesamte Vorgang mittlerweile bequem online mittels Video-Identifikation erledigen.
-Innerhalb weniger Werktage erhält man anschließend sowohl die Kontodaten als auch die zugehörige Karte per Post.
-
-🇮🇹
-Per aprire un conto, di norma è sufficiente un documento valido unito a un indirizzo di residenza attuale.
-In numerose banche l'intera procedura può ormai essere comodamente svolta online tramite identificazione video.
-Entro pochi giorni lavorativi si ricevono poi sia i dati del conto sia la relativa carta per posta.
+🇩🇪 <b>Nina:</b> Gut zu wissen, dann kümmere ich mich gleich diese Woche darum.
+🇮🇹 Buono a sapersi, allora me ne occupo già questa settimana.
 
 📚 <b>Neue Wörter</b>
+• <b>beabsichtigen</b> = avere l'intenzione di
+• <b>genügen</b> = essere sufficiente
+• <b>die Meldeadresse</b> = l'indirizzo di residenza
+• <b>eröffnen</b> = aprire
+• <b>sich kümmern um</b> = occuparsi di
 
-• <b>genügen</b>
-  = essere sufficiente, bastare
+💡 "genügen" è un sinonimo elegante di "reichen" ("bastare").
+""".strip(),
+        "midday": """
+🇩🇪 Um ein Konto zu eröffnen, genügt in der Regel ein gültiger Ausweis <b>in Verbindung mit</b> einer aktuellen Meldeadresse.
+🇮🇹 Per aprire un conto, di norma è sufficiente un documento valido unito a un indirizzo di residenza attuale.
 
-• <b>in Verbindung mit</b>
-  = unitamente a, insieme a
+🇩🇪 Bei zahlreichen Banken lässt sich der gesamte <b>Vorgang</b> mittlerweile bequem online erledigen.
+🇮🇹 In numerose banche l'intera procedura può ormai essere comodamente svolta online.
 
-• <b>der Vorgang, -¨e</b>
-  = la procedura/processo
+🇩🇪 Innerhalb weniger Werktage erhält man anschließend <b>sowohl</b> die Kontodaten <b>als auch</b> die zugehörige Karte.
+🇮🇹 Entro pochi giorni lavorativi si ricevono poi sia i dati del conto sia la relativa carta.
 
-💡 <b>Struktur</b>
-<b>sowohl ... als auch</b> = sia... sia...: doppio connettore molto frequente in testi C1.
+📚 <b>Neue Wörter</b>
+• <b>in Verbindung mit</b> = unitamente a
+• <b>der Vorgang</b> = la procedura
+• <b>sowohl ... als auch</b> = sia... sia
+• <b>sich erledigen lassen</b> = potersi svolgere
+• <b>zugehörig</b> = relativo, associato
+
+💡 "sowohl ... als auch" è un doppio connettore molto frequente in testi formali.
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
-
-<b>Es genügt vollkommen, den Ausweis in Verbindung mit dem Meldenachweis vorzulegen.</b>
-
+🇩🇪 Es genügt vollkommen, den Ausweis <b>in Verbindung mit</b> dem Meldenachweis vorzulegen.
 🇮🇹 È del tutto sufficiente presentare il documento unitamente al certificato di residenza.
 
+🇩🇪 Der <b>Vorgang</b> lässt sich mittlerweile bequem online erledigen.
+🇮🇹 La procedura può ormai essere svolta comodamente online.
+
 🔁 <b>Wiederholung</b>
+• <b>beabsichtigen</b> = avere intenzione
+• <b>genügen</b> = essere sufficiente
+• <b>in Verbindung mit</b> = unitamente a
+• <b>der Vorgang</b> = la procedura
+• <b>sowohl ... als auch</b> = sia... sia
 
-• <b>beabsichtigen</b>
-• <b>genügen</b>
-• <b>sowohl ... als auch</b>
-
-<i>Prova a costruire una frase con "sowohl ... als auch" su due cose che devi fare.</i>
+<i>Prova a fare una frase con "sowohl ... als auch" su due cose che devi fare.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Tobias:</b> Ich würde gerne <b>in Erfahrung bringen</b>, ob bei meinem Vertrag eine Mindestlaufzeit <b>besteht</b>.
+🇮🇹 Vorrei appurare se per il mio contratto esiste una durata minima.
 
-<b>Ich würde gerne in Erfahrung bringen, ob eine Mindestvertragslaufzeit besteht.</b>
+🇩🇪 <b>Kundenberaterin:</b> Ja, die beträgt bei Ihrem Tarif vierundzwanzig Monate ab Vertragsbeginn.
+🇮🇹 Sì, per la sua tariffa è di ventiquattro mesi dall'inizio del contratto.
 
-🇮🇹 Vorrei appurare se esiste una durata contrattuale minima.
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>bestehen</b>
-  = esistere, sussistere
-
-• <b>wechseln</b>
-  = cambiare
-
-• <b>die Laufzeit, -en</b>
-  = la durata
-
-💡 <b>C1-Ausdruck:</b>
-<b>Inwiefern unterscheiden sich die beiden Tarife?</b>
-= In che misura si differenziano le due tariffe?
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Handy- und Internetverträge weisen häufig eine feste Laufzeit von zwölf oder vierundzwanzig Monaten auf,
-wobei sich der Vertrag, sofern nicht fristgerecht gekündigt wird, in der Regel automatisch verlängert.
-Es empfiehlt sich mithin dringend, den entsprechenden Kündigungstermin rechtzeitig zu vermerken.
-
-🇮🇹
-I contratti per cellulare e internet presentano spesso una durata fissa di dodici o ventiquattro mesi,
-per cui il contratto, a meno che non venga disdetto nei termini, si rinnova di norma automaticamente.
-Si consiglia pertanto vivamente di annotare per tempo la relativa data di disdetta.
+🇩🇪 <b>Tobias:</b> Verstanden, dann behalte ich das <b>im Hinterkopf</b>, falls ich wechseln möchte.
+🇮🇹 Capito, allora lo terrò a mente, nel caso volessi cambiare.
 
 📚 <b>Neue Wörter</b>
+• <b>in Erfahrung bringen</b> = appurare
+• <b>bestehen</b> = esistere, sussistere
+• <b>im Hinterkopf behalten</b> = tenere a mente
+• <b>die Mindestlaufzeit</b> = la durata minima
+• <b>wechseln</b> = cambiare
 
-• <b>aufweisen</b>
-  = presentare, avere (una caratteristica)
+💡 "im Hinterkopf behalten" è un'espressione idiomatica molto usata nel parlato.
+""".strip(),
+        "midday": """
+🇩🇪 Handy- und Internetverträge <b>weisen</b> häufig eine feste Laufzeit von zwölf oder vierundzwanzig Monaten <b>auf</b>.
+🇮🇹 I contratti per cellulare e internet presentano spesso una durata fissa di dodici o ventiquattro mesi.
 
-• <b>mithin</b>
-  = pertanto, quindi (connettore molto formale)
+🇩🇪 <b>Sofern</b> nicht fristgerecht gekündigt wird, verlängert sich der Vertrag in der Regel automatisch.
+🇮🇹 A meno che non venga disdetto nei termini, il contratto si rinnova di norma automaticamente.
 
-• <b>vermerken</b>
-  = annotare
+🇩🇪 Es empfiehlt sich <b>mithin</b> dringend, den Kündigungstermin rechtzeitig zu vermerken.
+🇮🇹 Si consiglia pertanto vivamente di annotare per tempo la relativa data di disdetta.
 
-💡 <b>Struktur</b>
-<b>mithin</b> come sinonimo elevato di "also/deshalb", tipico di testi giuridici o accademici.
+📚 <b>Neue Wörter</b>
+• <b>aufweisen</b> = presentare, avere (una caratteristica)
+• <b>sofern</b> = a condizione che
+• <b>mithin</b> = pertanto
+• <b>sich verlängern</b> = rinnovarsi
+• <b>vermerken</b> = annotare
+
+💡 "mithin" è un sinonimo elevato di "also/deshalb", tipico di testi giuridici o accademici.
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
-
-<b>Der Vertrag verlängert sich automatisch, sofern nicht fristgerecht gekündigt wird.</b>
-
+🇩🇪 Der Vertrag verlängert sich automatisch, <b>sofern</b> nicht fristgerecht gekündigt wird.
 🇮🇹 Il contratto si rinnova automaticamente, a meno che non venga disdetto nei termini.
 
+🇩🇪 Diesen Punkt sollte man sich unbedingt <b>im Hinterkopf behalten</b>.
+🇮🇹 Questo punto andrebbe assolutamente tenuto a mente.
+
 🔁 <b>Wiederholung</b>
+• <b>aufweisen</b> = presentare
+• <b>mithin</b> = pertanto
+• <b>sofern</b> = a condizione che
+• <b>im Hinterkopf behalten</b> = tenere a mente
+• <b>in Erfahrung bringen</b> = appurare
 
-• <b>aufweisen</b>
-• <b>mithin</b>
-• <b>sofern nicht</b>
-
-<i>"sofern nicht" è più elegante di "wenn nicht" in un contesto contrattuale.</i>
+<i>Prova a fare una frase con "sofern nicht" su una condizione contrattuale.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Lisa:</b> Da ich mich unwohl fühle, melde ich mich <b>vorsorglich</b> für heute krank.
+🇮🇹 Dato che non mi sento bene, mi metto in malattia per precauzione, per oggi.
 
-<b>Da ich mich unwohl fühle, melde ich mich vorsorglich krank.</b>
+🇩🇪 <b>Jonas:</b> Das ist völlig <b>verständlich</b>, gute Besserung und melde dich, falls du etwas brauchst.
+🇮🇹 È del tutto comprensibile, buona guarigione e fatti sentire se hai bisogno di qualcosa.
 
-🇮🇹 Dato che non mi sento bene, mi metto in malattia per precauzione.
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>sich krankmelden</b>
-  = comunicare di essere malato/a
-
-• <b>vorsorglich</b>
-  = per precauzione
-
-• <b>genesen</b>
-  = guarire
-
-💡 <b>C1-Ausdruck:</b>
-<b>Ich werde voraussichtlich morgen wieder einsatzfähig sein.</b>
-= Sarò presumibilmente di nuovo operativa domani.
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Wer sich unwohl fühlt, sollte den Arbeitgeber möglichst frühzeitig am Morgen in Kenntnis setzen,
-wobei ab dem dritten Krankheitstag üblicherweise eine ärztliche Bescheinigung verlangt wird.
-Diese ist sodann fristgerecht einzureichen, meist auf digitalem Wege oder postalisch.
-
-🇮🇹
-Chi non si sente bene dovrebbe informare il datore di lavoro il più presto possibile al mattino,
-per cui dal terzo giorno di malattia viene di norma richiesto un certificato medico.
-Questo va poi presentato entro i termini, di solito per via digitale o postale.
+🇩🇪 <b>Lisa:</b> Danke dir, ich werde voraussichtlich morgen wieder <b>einsatzfähig</b> sein.
+🇮🇹 Grazie, sarò presumibilmente di nuovo operativa domani.
 
 📚 <b>Neue Wörter</b>
+• <b>vorsorglich</b> = per precauzione
+• <b>verständlich</b> = comprensibile
+• <b>einsatzfähig</b> = operativo
+• <b>sich krankmelden</b> = comunicare di essere malato
+• <b>die Besserung</b> = il miglioramento
 
-• <b>in Kenntnis setzen</b>
-  = informare, mettere al corrente
+💡 "vorsorglich" indica un'azione presa per precauzione, prima che un problema si presenti davvero.
+""".strip(),
+        "midday": """
+🇩🇪 Wer sich unwohl fühlt, sollte den Arbeitgeber möglichst frühzeitig am Morgen <b>in Kenntnis setzen</b>.
+🇮🇹 Chi non si sente bene dovrebbe informare il datore di lavoro il più presto possibile al mattino.
 
-• <b>einreichen</b>
-  = presentare/consegnare (documenti)
+🇩🇪 Ab dem dritten Krankheitstag wird üblicherweise eine ärztliche Bescheinigung <b>verlangt</b>.
+🇮🇹 Dal terzo giorno di malattia viene di norma richiesto un certificato medico.
 
-• <b>postalisch</b>
-  = per posta (aggettivo formale)
+🇩🇪 Diese ist sodann fristgerecht <b>einzureichen</b>, meist auf digitalem Wege oder postalisch.
+🇮🇹 Questo va poi presentato entro i termini, di solito per via digitale o postale.
 
-💡 <b>Struktur</b>
-<b>Passiv mit zu:</b> Diese ist einzureichen = va presentata (forma impersonale burocratica).
+📚 <b>Neue Wörter</b>
+• <b>in Kenntnis setzen</b> = informare
+• <b>verlangen</b> = richiedere
+• <b>einreichen</b> = presentare (documenti)
+• <b>die Bescheinigung</b> = il certificato
+• <b>postalisch</b> = per posta
+
+💡 Il Passiv con "zu" ("ist einzureichen") sostituisce "muss eingereicht werden" in registro alto.
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
-
-<b>Die Krankschreibung ist dem Arbeitgeber fristgerecht vorzulegen.</b>
-
+🇩🇪 Die Krankschreibung ist dem Arbeitgeber fristgerecht <b>vorzulegen</b>.
 🇮🇹 Il certificato di malattia va presentato al datore di lavoro entro i termini.
 
+🇩🇪 Ich werde voraussichtlich morgen wieder <b>einsatzfähig</b> sein.
+🇮🇹 Sarò presumibilmente di nuovo operativa domani.
+
 🔁 <b>Wiederholung</b>
+• <b>vorsorglich</b> = per precauzione
+• <b>einsatzfähig</b> = operativo
+• <b>einreichen</b> = presentare
+• <b>verlangen</b> = richiedere
+• <b>die Bescheinigung</b> = il certificato
 
-• <b>sich krankmelden</b>
-• <b>vorsorglich</b>
-• <b>Passiv mit zu: ist vorzulegen</b>
-
-<i>Nota come questa costruzione ("ist + zu + Infinitiv") sostituisce "muss vorgelegt werden" in registro alto.</i>
+<i>Prova a fare una frase con "voraussichtlich" su un tuo piano futuro.</i>
 """.strip(),
     },
     {
         "morning": """
-🇩🇪 <b>Guten Morgen!</b>
+🇩🇪 <b>Sophie:</b> Im kommenden Jahr <b>beabsichtige</b> ich, beruflich noch einmal etwas Neues zu <b>wagen</b>.
+🇮🇹 L'anno prossimo ho intenzione di osare di nuovo qualcosa di nuovo a livello professionale.
 
-<b>Im kommenden Jahr beabsichtige ich, nach Berlin zu ziehen.</b>
+🇩🇪 <b>Max:</b> Das klingt spannend, hast du schon eine konkrete Richtung im Kopf?
+🇮🇹 Sembra emozionante, hai già una direzione concreta in mente?
 
-🇮🇹 L'anno prossimo ho intenzione di trasferirmi a Berlino.
-
-📚 <b>Heute lernen wir:</b>
-
-• <b>beabsichtigen</b>
-  = avere l'intenzione di
-
-• <b>umziehen</b>
-  = traslocare
-
-• <b>die Zukunftspläne</b> (Pl.)
-  = i progetti futuri
-
-💡 <b>C1-Ausdruck:</b>
-<b>Ich habe mir vorgenommen, ... zu tun.</b>
-= Mi sono prefissata di fare... (più impegnativo di "vorhaben")
-""".strip(),
-        "midday": """
-🇩🇪 <b>Mittagsdeutsch</b>
-
-Zahlreiche Menschen nutzen den Jahreswechsel, um über ihre langfristigen Ziele nachzudenken.
-Manche nehmen sich vor, eine neue Sprache zu erlernen, während andere eine berufliche Veränderung anstreben.
-Entscheidend ist dabei, sich realistische und zugleich konkrete Ziele zu setzen, die sich auch tatsächlich umsetzen lassen.
-
-🇮🇹
-Numerose persone approfittano del cambio d'anno per riflettere sui propri obiettivi a lungo termine.
-Alcuni si propongono di imparare una nuova lingua, mentre altri puntano a un cambiamento professionale.
-È determinante, in questo, porsi obiettivi realistici e allo stesso tempo concreti, che si possano anche realizzare davvero.
+🇩🇪 <b>Sophie:</b> Noch nicht ganz, aber ich habe <b>mir vorgenommen</b>, mich bis zum Sommer zu entscheiden.
+🇮🇹 Non ancora del tutto, ma mi sono prefissata di decidere entro l'estate.
 
 📚 <b>Neue Wörter</b>
+• <b>beabsichtigen</b> = avere l'intenzione di
+• <b>wagen</b> = osare
+• <b>sich vornehmen</b> = prefiggersi
+• <b>die Richtung</b> = la direzione
+• <b>spannend</b> = interessante, emozionante
 
-• <b>anstreben</b>
-  = puntare a, aspirare a
+💡 "sich vornehmen, ... zu tun" è più impegnativo di "vorhaben" — implica un vero proposito.
+""".strip(),
+        "midday": """
+🇩🇪 Zahlreiche Menschen nutzen den Jahreswechsel, um über ihre langfristigen Ziele nachzudenken.
+🇮🇹 Numerose persone approfittano del cambio d'anno per riflettere sui propri obiettivi a lungo termine.
 
-• <b>sich umsetzen lassen</b>
-  = potersi realizzare
+🇩🇪 Manche nehmen sich vor, eine neue Sprache zu erlernen, während andere eine berufliche Veränderung <b>anstreben</b>.
+🇮🇹 Alcuni si propongono di imparare una nuova lingua, mentre altri puntano a un cambiamento professionale.
 
-• <b>zugleich</b>
-  = allo stesso tempo
+🇩🇪 <b>Entscheidend</b> ist dabei, sich realistische und <b>zugleich</b> konkrete Ziele zu setzen.
+🇮🇹 È determinante, in questo, porsi obiettivi realistici e allo stesso tempo concreti.
 
-💡 <b>Struktur</b>
-<b>sich lassen</b> + Infinitiv (passivo potenziale): sich umsetzen lassen = potersi realizzare.
+📚 <b>Neue Wörter</b>
+• <b>anstreben</b> = puntare a
+• <b>entscheidend</b> = determinante
+• <b>zugleich</b> = allo stesso tempo
+• <b>sich vornehmen</b> = prefiggersi
+• <b>langfristig</b> = a lungo termine
+
+💡 "entscheidend ist, dass/zu..." introduce il punto chiave di un ragionamento.
 """.strip(),
         "evening": """
-🌙 <b>Abend-Deutsch</b>
+🌙 <b>Ripasso:</b>
 
-Ripasso di oggi:
-
-<b>Ich habe mir vorgenommen, mein Deutsch bis Ende des Jahres erheblich zu verbessern.</b>
-
+🇩🇪 Ich habe mir vorgenommen, mein Deutsch bis Ende des Jahres erheblich zu verbessern.
 🇮🇹 Mi sono prefissata di migliorare notevolmente il mio tedesco entro fine anno.
 
+🇩🇪 <b>Entscheidend</b> ist, sich <b>zugleich</b> realistische Ziele zu setzen.
+🇮🇹 È determinante porsi, allo stesso tempo, obiettivi realistici.
+
 🔁 <b>Wiederholung</b>
+• <b>beabsichtigen</b> = avere intenzione
+• <b>anstreben</b> = puntare a
+• <b>entscheidend</b> = determinante
+• <b>zugleich</b> = allo stesso tempo
+• <b>sich vornehmen</b> = prefiggersi
 
-• <b>anstreben</b>
-• <b>sich umsetzen lassen</b>
-• <b>sich vornehmen</b>
-
-<i>Complimenti, hai completato il ciclo di 25 giorni a livello B2/C1! Da domani si riparte dal primo giorno. 🎉</i>
+<i>Complimenti, hai completato il ciclo di 25 giorni B2/C1! Da domani si riparte dal primo giorno. 🎉</i>
 """.strip(),
     },
 ]
