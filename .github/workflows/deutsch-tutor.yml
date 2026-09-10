@@ -7,7 +7,7 @@ on:
     # di GitHub Actions (GitHub sconsiglia esplicitamente *:00, *:15, *:30, *:45).
     # Cambieranno di un'ora reale quando la Germania torna all'ora solare (CET, fine ottobre).
     - cron: "43 7 * * *"   # ~09:43 CEST -> lezione del mattino
-    - cron: "38 10 * * *"  # TEST TEMPORANEO: ~12:38 CEST, poi tornerà a 28
+    - cron: "28 10 * * *"  # ~12:28 CEST -> lezione di mezzogiorno
     - cron: "13 16 * * *"  # ~18:13 CEST -> lezione della sera
   workflow_dispatch:
     inputs:
@@ -43,7 +43,7 @@ jobs:
             echo "type=${{ github.event.inputs.lesson }}" >> "$GITHUB_OUTPUT"
           elif [ "${{ github.event.schedule }}" = "43 7 * * *" ]; then
             echo "type=morning" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event.schedule }}" = "38 10 * * *" ]; then
+          elif [ "${{ github.event.schedule }}" = "28 10 * * *" ]; then
             echo "type=midday" >> "$GITHUB_OUTPUT"
           else
             echo "type=evening" >> "$GITHUB_OUTPUT"
